@@ -18,7 +18,7 @@ const srcLabel = s => s.length > 1 ? "Both neighborhoods" : s[0];
 let SALES = [];
 let byStreet = new Map();        // street -> sale record
 let filter = "all";
-let category = "all";
+const cats = new Set();   // selected categories; empty = show all
 let query = "";
 const markers = new Map();       // street -> leaflet marker
 const route = [];                // ordered array of streets (selected stops)
@@ -200,7 +200,7 @@ function renderRoute(start, ordered) {
 /* ---------- list + selection ---------- */
 function visible(s) {
   if (filter !== "all" && !s.sources.includes(filter)) return false;
-  if (category !== "all" && !(s.categories || []).includes(category)) return false;
+  if (cats.size && !(s.categories || []).some(c => cats.has(c))) return false;
   if (query) {
     const hay = (s.street + " " + (s.items || "")).toLowerCase();
     if (!hay.includes(query)) return false;
@@ -301,34 +301,52 @@ function boot(data) {
   render();                                  // list renders with or without a map
 }
 
-// Build the category dropdown from the data, with a count per category.
+// Build the category filter as toggleable chips (multi-select; empty = all).
+// Selecting several shows sales matching ANY of the chosen categories.
 function populateCategories() {
   const counts = new Map();
   for (const s of SALES)
     for (const c of (s.categories || [])) counts.set(c, (counts.get(c) || 0) + 1);
-  const sel = document.getElementById("catFilter");
-  if (!sel) return;
+  const box = document.getElementById("catChips");
+  if (!box) return;
+  box.innerHTML = "";
+
+  const clear = document.createElement("span");
+  clear.id = "catClear";
+  clear.textContent = "clear";
+  clear.style.display = "none";
+  clear.onclick = () => {
+    cats.clear();
+    box.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+    clear.style.display = "none";
+    render();
+  };
+
   [...counts.keys()].sort().forEach(cat => {
-    const o = document.createElement("option");
-    o.value = cat;
-    o.textContent = `${cat} (${counts.get(cat)})`;
-    sel.appendChild(o);
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = `${cat} (${counts.get(cat)})`;
+    chip.onclick = () => {
+      if (cats.has(cat)) cats.delete(cat); else cats.add(cat);
+      chip.classList.toggle("active", cats.has(cat));
+      clear.style.display = cats.size ? "" : "none";
+      render();
+    };
+    box.appendChild(chip);
   });
+  box.appendChild(clear);
 }
 boot(window.SALES_DATA);
 
 document.getElementById("search").addEventListener("input", e => {
   query = e.target.value.trim().toLowerCase(); render();
 });
-document.querySelectorAll(".chip").forEach(chip => {
+document.querySelectorAll(".chip[data-f]").forEach(chip => {
   chip.onclick = () => {
     filter = chip.dataset.f;
-    document.querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c === chip));
+    document.querySelectorAll(".chip[data-f]").forEach(c => c.classList.toggle("active", c === chip));
     render();
   };
-});
-document.getElementById("catFilter").addEventListener("change", e => {
-  category = e.target.value; render();
 });
 document.getElementById("locate").onclick = locateMe;
 document.getElementById("clearRoute").onclick = () => {

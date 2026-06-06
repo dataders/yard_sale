@@ -18,7 +18,10 @@
   #sidebar { width:340px; max-width:42%; display:flex; flex-direction:column; border-right:1px solid #e2ddd3; background:var(--bg); }
   #controls { padding:8px 10px; display:flex; flex-direction:column; gap:6px; border-bottom:1px solid #e2ddd3; }
   #search { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.9rem; }
-  #catFilter { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.85rem; background:#fff; color:var(--ink); }
+  .cats-filter { gap:5px; }
+  .cats-filter .chip { font-size:.7rem; }
+  .cats-filter .chip.active { background:#6b5d42; color:#fff; border-color:transparent; }
+  #catClear { font-size:.7rem; color:#9a8f78; cursor:pointer; align-self:center; text-decoration:underline; }
   .filters { display:flex; gap:6px; flex-wrap:wrap; }
   .chip { font-size:.72rem; padding:4px 9px; border-radius:20px; border:1px solid #cfc8ba; background:#fff; cursor:pointer; user-select:none; }
   .chip.active { color:#fff; border-color:transparent; }
@@ -94,9 +97,7 @@
           <span class="chip" data-f="Forest Hill">Forest Hill</span>
           <span class="chip" data-f="Westover Hills">Westover Hills</span>
         </div>
-        <select id="catFilter" aria-label="Filter by category">
-          <option value="all">All categories</option>
-        </select>
+        <div id="catChips" class="filters cats-filter" role="group" aria-label="Filter by category"></div>
         <div id="count"></div>
       </div>
 

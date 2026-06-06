@@ -1,0 +1,2651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>June 6th 2026 Yard Sales</name>
+    <description>Times and durations of yard sales may vary. The suggested range is 8am-noon. Click or tap on pins for list of items at some locations.</description>
+    <Style id="icon-1502-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>2026 Neighborhood Yard Sale (Responses)</name>
+      <Placemark>
+        <name>4301 Stonewall Ave</name>
+        <address>4301 Stonewall Ave, Richmond VA 23225</address>
+        <description><![CDATA[Timestamp: 4/13/2026 19:04:16<br>Yard Sale Address: 4301 Stonewall Ave, Richmond VA 23225<br>Items Available: Toddler/children’s toys, books, games, movies, etc. Also, house furnishings for a moving sale!<br>RDC Refined: 1<br>Location: 4301 Stonewall Ave, Richmond VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/13/2026 19:04:16</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4301 Stonewall Ave, Richmond VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Toddler/children’s toys, books, games, movies, etc. Also, house furnishings for a moving sale!</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4301 Stonewall Ave, Richmond VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5108 King William Rd</name>
+        <address>5108 King William Rd, Richmond va 23225</address>
+        <description><![CDATA[Timestamp: 4/13/2026 20:20:51<br>Yard Sale Address: 5108 king william rd Richmond va 23225<br>Items Available: Lots of Furniture, toys, games, books, art<br>RDC Refined: 1<br>Location: 5108 King William Rd, Richmond va 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/13/2026 20:20:51</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>5108 king william rd Richmond va 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Lots of Furniture, toys, games, books, art</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>5108 King William Rd, Richmond va 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>823 W 47th Street</name>
+        <address>823 W 47th Street, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/16/2026 15:55:21<br>Yard Sale Address: 823 W 47th Street, Richmond, VA 23225<br>Items Available: Kitchen utensils, bedroom furniture, clothes, books, tools, bikes, kids equipment<br>RDC Refined: 1<br>Location: 823 W 47th Street, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/16/2026 15:55:21</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>823 W 47th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Kitchen utensils, bedroom furniture, clothes, books, tools, bikes, kids equipment</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>823 W 47th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4302 Stonewall Ave</name>
+        <address>4302 Stonewall Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/16/2026 19:16:09<br>Yard Sale Address: 4302 Stonewall Ave, Richmond, VA 23225<br>Items Available: Kids' toys, kids' bikes, kids' clothes, books, miscellaneous <br>RDC Refined: 1<br>Location: 4302 Stonewall Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/16/2026 19:16:09</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4302 Stonewall Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value><![CDATA[Kids' toys, kids' bikes, kids' clothes, books, miscellaneous ]]></value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4302 Stonewall Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[Timestamp: 4/18/2026 8:07:32<br>Yard Sale Address: 811 W49th st, Richmond, VA 23225<br>Items Available: Kitchen items, toys, other random items<br>RDC Refined: 0<br>Location: <br>Column 1: Messaged to cancel]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/18/2026 8:07:32</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>811 W49th st, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Kitchen items, toys, other random items</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value>Messaged to cancel</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1206 W 45th St</name>
+        <address>1206 W 45th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/19/2026 11:29:07<br>Yard Sale Address: 1206 W 45th St., RIchmond, VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 1206 W 45th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/19/2026 11:29:07</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1206 W 45th St., RIchmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1206 W 45th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>3108 Forest Hill Ave</name>
+        <address>3108 Forest Hill Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/20/2026 14:51:42<br>Yard Sale Address: 3108 forest hill ave<br>Items Available: <br>RDC Refined: 1<br>Location: 3108 Forest Hill Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/20/2026 14:51:42</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>3108 forest hill ave</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>3108 Forest Hill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1011 W 42nd St</name>
+        <address>1011 W 42nd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/21/2026 11:36:28<br>Yard Sale Address: 1011 W 42nd st<br>Items Available: housewares, children’s items, clothing, books, art, misc. <br>RDC Refined: 1<br>Location: 1011 W 42nd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/21/2026 11:36:28</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1011 W 42nd st</value>
+          </Data>
+          <Data name="Items Available">
+            <value>housewares, children’s items, clothing, books, art, misc. </value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1011 W 42nd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1804 W 44th Street</name>
+        <address>1804 W 44th Street, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/21/2026 20:41:46<br>Yard Sale Address: 1804 W 44th Street, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 1804 W 44th Street, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/21/2026 20:41:46</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1804 W 44th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1804 W 44th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1805 W 42nd St</name>
+        <address>1805 W 42nd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 4/26/2026 20:52:26<br>Yard Sale Address: 1805 W 42nd St, Richmond, VA 23225<br>Items Available: Clothes women, teen boy/girl, houseware, yard<br>RDC Refined: 1<br>Location: 1805 W 42nd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>4/26/2026 20:52:26</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1805 W 42nd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Clothes women, teen boy/girl, houseware, yard</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1805 W 42nd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4012 Dunston Ave</name>
+        <address>4012 Dunston Ave, Richmond VA, 23225</address>
+        <description><![CDATA[Timestamp: 5/5/2026 8:21:16<br>Yard Sale Address: 4012 Dunston Ave<br>Items Available: Furniture, clothing, wedding decor, glassware, electronics, kitchenware, and more!<br>RDC Refined: 1<br>Location: 4012 Dunston Ave, Richmond VA, 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/5/2026 8:21:16</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4012 Dunston Ave</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Furniture, clothing, wedding decor, glassware, electronics, kitchenware, and more!</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4012 Dunston Ave, Richmond VA, 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 5/9/2026 14:01:17<br>Yard Sale Address: 5122 Forest hill road<br>Items Available: In the alley off dorchester! Books, art, household, clothes, lamps, video games, bikes and bike parts<br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/9/2026 14:01:17</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>5122 Forest hill road</value>
+          </Data>
+          <Data name="Items Available">
+            <value>In the alley off dorchester! Books, art, household, clothes, lamps, video games, bikes and bike parts</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4532 New Kent Ave</name>
+        <address>4532 New Kent Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/12/2026 17:48:59<br>Yard Sale Address: 4532 New Kent Ave. Richmond, VA 23225<br>Items Available: 7500 W portable generator w/electric start, hand tools, clothes, artworks, and more!<br>RDC Refined: 1<br>Location: 4532 New Kent Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/12/2026 17:48:59</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4532 New Kent Ave. Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>7500 W portable generator w/electric start, hand tools, clothes, artworks, and more!</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4532 New Kent Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1203 W 45th St</name>
+        <address>1203 W 45th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/17/2026 14:06:56<br>Yard Sale Address: 1203 W 45th St Richmond VA 23225<br>Items Available: Clothes, dog stuff, misc household items<br>RDC Refined: 1<br>Location: 1203 W 45th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/17/2026 14:06:56</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1203 W 45th St Richmond VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Clothes, dog stuff, misc household items</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1203 W 45th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1805 W 43rd St</name>
+        <address>1805 W 43rd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/17/2026 20:13:52<br>Yard Sale Address: 1805 W 43rd St<br>Items Available: Antique furniture and lamps, lanterns, antique smalls, tools, antique scale, glassware, antique clocks, and more<br>RDC Refined: 1<br>Location: 1805 W 43rd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/17/2026 20:13:52</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1805 W 43rd St</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Antique furniture and lamps, lanterns, antique smalls, tools, antique scale, glassware, antique clocks, and more</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1805 W 43rd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1302 W 42nd St</name>
+        <address>1302 W 42nd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/17/2026 21:32:22<br>Yard Sale Address: 1302 W 42nd St, Richmond, VA 23225<br>Items Available: Vintage home decor, baby clothes and other baby items, adult clothes, kitchen items, small furniture<br>RDC Refined: 1<br>Location: 1302 W 42nd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/17/2026 21:32:22</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1302 W 42nd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Vintage home decor, baby clothes and other baby items, adult clothes, kitchen items, small furniture</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1302 W 42nd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1206 W 41st St</name>
+        <address>1206 W 41st St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/19/2026 12:50:05<br>Yard Sale Address: 1206 W. 41st Street, Richmond, VA 23225<br>Items Available: Furniture, housewares, antiques, pottery, dishes, books<br>RDC Refined: 1<br>Location: 1206 W 41st St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/19/2026 12:50:05</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1206 W. 41st Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Furniture, housewares, antiques, pottery, dishes, books</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1206 W 41st St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>518 W 29th St</name>
+        <address>518 W 29th St, Richmond 23225</address>
+        <description><![CDATA[Timestamp: 5/20/2026 6:56:59<br>Yard Sale Address: 518 W. 29th Street Richmond 23225<br>Items Available: Clothes, pottery, metaphysical, art, tarot <br>RDC Refined: 1<br>Location: 518 W 29th St, Richmond 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/20/2026 6:56:59</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>518 W. 29th Street Richmond 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Clothes, pottery, metaphysical, art, tarot </value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>518 W 29th St, Richmond 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>209 Dundee Ave</name>
+        <address>209 Dundee Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/21/2026 9:20:59<br>Yard Sale Address: 209 Dundee Avenue, Richmond, VA 23225<br>Items Available: Wooden dining table and chairs, large chair, in-table, dishes and art<br>RDC Refined: 1<br>Location: 209 Dundee Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/21/2026 9:20:59</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>209 Dundee Avenue, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Wooden dining table and chairs, large chair, in-table, dishes and art</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>209 Dundee Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>208 W 34th St</name>
+        <address>208 W 34th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/22/2026 20:46:10<br>Yard Sale Address: 208 W. 34th Street, Richmond, VA 23225<br>Items Available: Antique/Vintage, garden, fencing, fans, chairs, books, push mower, pop-up canopy, light fixtures, sewing machine, gas stove, 1959 BSA motorcycle, and more!<br>RDC Refined: 1<br>Location: 208 W 34th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/22/2026 20:46:10</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>208 W. 34th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Antique/Vintage, garden, fencing, fans, chairs, books, push mower, pop-up canopy, light fixtures, sewing machine, gas stove, 1959 BSA motorcycle, and more!</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>208 W 34th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>3311 Semmes Ave</name>
+        <address>3311 Semmes Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/22/2026 22:53:41<br>Yard Sale Address: 3311 Semmes Avenue<br>Items Available: <br>RDC Refined: 1<br>Location: 3311 Semmes Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/22/2026 22:53:41</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>3311 Semmes Avenue</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>3311 Semmes Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4206 New Kent Ave</name>
+        <address>4206 New Kent Ave, Richmond, VA, 23225</address>
+        <description><![CDATA[Timestamp: 5/24/2026 16:04:44<br>Yard Sale Address: 4206 New Kent Ave., Richmond, VA, 23225<br>Items Available: Tables dedicated to $1 and $5 items; professional art supplies (COPIC markers, Microns, pastels, etc.), Pokemon goods, manga, misc. nerd goods<br>RDC Refined: 1<br>Location: 4206 New Kent Ave, Richmond, VA, 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/24/2026 16:04:44</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4206 New Kent Ave., Richmond, VA, 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Tables dedicated to $1 and $5 items; professional art supplies (COPIC markers, Microns, pastels, etc.), Pokemon goods, manga, misc. nerd goods</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4206 New Kent Ave, Richmond, VA, 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>701 W 33rd St</name>
+        <address>701 W 33rd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/24/2026 16:58:29<br>Yard Sale Address: 701 west 33rd street<br>Items Available: Furniture , yard items, household stuff, decor <br>RDC Refined: 1<br>Location: 701 W 33rd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/24/2026 16:58:29</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>701 west 33rd street</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Furniture , yard items, household stuff, decor </value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>701 W 33rd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4026 Northrop St</name>
+        <address>4026 Northrop St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/25/2026 14:49:15<br>Yard Sale Address: 4026 Northrop Street<br>Items Available: <br>RDC Refined: 1<br>Location: 4026 Northrop St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/25/2026 14:49:15</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4026 Northrop Street</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4026 Northrop St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>618 W 33rd St</name>
+        <address>618 W 33rd St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/29/2026 8:14:18<br>Yard Sale Address: 618 w 33rd st<br>Items Available: Men's bike, mid century console tables, misc household items.<br>RDC Refined: 1<br>Location: 618 W 33rd St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/29/2026 8:14:18</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>618 w 33rd st</value>
+          </Data>
+          <Data name="Items Available">
+            <value><![CDATA[Men's bike, mid century console tables, misc household items.]]></value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>618 W 33rd St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 5/29/2026 9:21:22<br>Yard Sale Address: 5122 Forest Hill Avenue<br>Items Available: Hi, I'm sorry but I am not able to participate any longer. Will you please take my address off the map? Thanks!<br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/29/2026 9:21:22</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>5122 Forest Hill Avenue</value>
+          </Data>
+          <Data name="Items Available">
+            <value><![CDATA[Hi, I'm sorry but I am not able to participate any longer. Will you please take my address off the map? Thanks!]]></value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1807 Woodbine Rd</name>
+        <address>1807 Woodbine Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/29/2026 17:56:20<br>Yard Sale Address: 1807 Woodbine Road,Richmond,VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 1807 Woodbine Rd, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/29/2026 17:56:20</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1807 Woodbine Road,Richmond,VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1807 Woodbine Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1816 W 45th St</name>
+        <address>1816 W 45th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/29/2026 20:52:13<br>Yard Sale Address: 1816 W 45th Street, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 1816 W 45th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/29/2026 20:52:13</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1816 W 45th Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1816 W 45th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>3000 Springhill Ave</name>
+        <address>3000 Springhill Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/30/2026 11:29:31<br>Yard Sale Address: 3000 Springhill Ave. RVA 23225<br>Items Available: Misc yard tools, children’s items, etc.<br>RDC Refined: 1<br>Location: 3000 Springhill Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/30/2026 11:29:31</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>3000 Springhill Ave. RVA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Misc yard tools, children’s items, etc.</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>3000 Springhill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4030 Forest Hill Ave</name>
+        <address>4030 Forest Hill Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/30/2026 20:15:18<br>Yard Sale Address: 4030 Forest Hill Ave<br>Items Available: Brass bed,  shoes<br>RDC Refined: 1<br>Location: 4030 Forest Hill Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/30/2026 20:15:18</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4030 Forest Hill Ave</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Brass bed,  shoes</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4030 Forest Hill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>901 W 31st St</name>
+        <address>901 W 31st St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 5/31/2026 14:21:27<br>Yard Sale Address: 901 W 31st St, Richmond, VA 23225<br>Items Available: 901 W 31st St, Richmond, VA 23225<br>RDC Refined: 1<br>Location: 901 W 31st St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/31/2026 14:21:27</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>901 W 31st St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>901 W 31st St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 5/31/2026 21:14:49<br>Yard Sale Address: 901 W 31st street, Richmond, VA 23225<br>Items Available: Everything from chain saw to lamps abd kids will do a lemonade stand <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>5/31/2026 21:14:49</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Everything from chain saw to lamps abd kids will do a lemonade stand </value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>706 W 26th St</name>
+        <address>706 W 26th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 6/1/2026 8:30:38<br>Yard Sale Address: 706 W 26th St<br>Items Available: Household items, air purifier, robot vacuum, tools, books<br>RDC Refined: 1<br>Location: 706 W 26th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/1/2026 8:30:38</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>706 W 26th St</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Household items, air purifier, robot vacuum, tools, books</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>706 W 26th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4711 King William Rd</name>
+        <address>4711 King William Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 6/1/2026 18:28:46<br>Yard Sale Address: 4711 King William Rd<br>Items Available: <br>RDC Refined: 1<br>Location: 4711 King William Rd, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/1/2026 18:28:46</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4711 King William Rd</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4711 King William Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4536 New Kent Ave</name>
+        <address>4536 New Kent Ave, Richmond VA 23225</address>
+        <description><![CDATA[Timestamp: 6/1/2026 22:18:28<br>Yard Sale Address: 4536 New Kent Ave, Richmond VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 4536 New Kent Ave, Richmond VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/1/2026 22:18:28</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4536 New Kent Ave, Richmond VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4536 New Kent Ave, Richmond VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/2/2026 6:23:49<br>Yard Sale Address: 901 W 31st street, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 6:23:49</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/2/2026 10:25:42<br>Yard Sale Address: 901 W 31st street, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 10:25:42</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/2/2026 10:37:20<br>Yard Sale Address: 901 W 31st St, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 10:37:20</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/2/2026 10:36:14<br>Yard Sale Address: 901 W 31st st, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 10:36:14</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st st, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/2/2026 10:36:40<br>Yard Sale Address: 901 W 31st street, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 10:36:40</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>901 W 31st street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4317 New Kent Ave</name>
+        <address>4317 New Kent Ave, Richmond VA, 23225</address>
+        <description><![CDATA[Timestamp: 6/2/2026 14:18:26<br>Yard Sale Address: 4317 New Kent Avenue<br>Items Available: <br>RDC Refined: 1<br>Location: 4317 New Kent Ave, Richmond VA, 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/2/2026 14:18:26</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4317 New Kent Avenue</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4317 New Kent Ave, Richmond VA, 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>3201 Forest Hill Ave</name>
+        <address>3201 Forest Hill Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 6/3/2026 8:51:40<br>Yard Sale Address: 3201 Forest Hill Ave, Richmond, VA 23225<br>Items Available: <br>RDC Refined: 1<br>Location: 3201 Forest Hill Ave, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/3/2026 8:51:40</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>3201 Forest Hill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>3201 Forest Hill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>319 W 28th St</name>
+        <address>319 W 28th St, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: 6/3/2026 12:46:04<br>Yard Sale Address: 319 W 28th St<br>Items Available: Womens small bike, bike floor pump, snorkel fins & booties-womens small<br>RDC Refined: 1<br>Location: 319 W 28th St, Richmond, VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/3/2026 12:46:04</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>319 W 28th St</value>
+          </Data>
+          <Data name="Items Available">
+            <value><![CDATA[Womens small bike, bike floor pump, snorkel fins & booties-womens small]]></value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>319 W 28th St, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1807  Woodbine Road</name>
+        <address>1807  Woodbine Road, Richmond,VA 23225</address>
+        <description><![CDATA[Timestamp: 6/3/2026 18:09:36<br>Yard Sale Address: 1807  Woodbine Road,Richmond,VA 23225<br>Items Available: Albums,CD's, Golf Items, Tools, Arts and Crafts, Clothing, shoes, Household items, Multi-family sale !<br>RDC Refined: 1<br>Location: 1807  Woodbine Road, Richmond,VA 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/3/2026 18:09:36</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1807  Woodbine Road,Richmond,VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value><![CDATA[Albums,CD's, Golf Items, Tools, Arts and Crafts, Clothing, shoes, Household items, Multi-family sale !]]></value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>1807  Woodbine Road, Richmond,VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>#VALUE!</name>
+        <description><![CDATA[Timestamp: 6/4/2026 7:59:24<br>Yard Sale Address: 1807 Woodbine Road,Richmond,VA 23225<br>Items Available: Albums,CDs,Golf Gear,Arts and crafts,clothing, Tools,furniture. Multi-Family  yard sale <br>RDC Refined: 0<br>Location: <br>Column 1: ]]></description>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/4/2026 7:59:24</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>1807 Woodbine Road,Richmond,VA 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>Albums,CDs,Golf Gear,Arts and crafts,clothing, Tools,furniture. Multi-Family  yard sale </value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>0.0</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4410 Forest Hill Ave Richmond</name>
+        <address>4410 Forest Hill Ave Richmond, VA, 23225</address>
+        <description><![CDATA[Timestamp: 6/4/2026 17:50:26<br>Yard Sale Address: 4410 Forest Hill Ave Richmond Va 23225<br>Items Available: HomeGoods, vintage and modern, lighting, children’s books, clothes from Everdeen, Madewell, vintage, designer, vintage and modern furniture, tools, especially woodworking tools, some photography equipment, and other art supplies.<br>RDC Refined: 1<br>Location: 4410 Forest Hill Ave Richmond, VA, 23225<br>Column 1: ]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value>6/4/2026 17:50:26</value>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value>4410 Forest Hill Ave Richmond Va 23225</value>
+          </Data>
+          <Data name="Items Available">
+            <value>HomeGoods, vintage and modern, lighting, children’s books, clothes from Everdeen, Madewell, vintage, designer, vintage and modern furniture, tools, especially woodworking tools, some photography equipment, and other art supplies.</value>
+          </Data>
+          <Data name="RDC Refined">
+            <value>1.0</value>
+          </Data>
+          <Data name="Location">
+            <value>4410 Forest Hill Ave Richmond, VA, 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1507 Westover Hiills Blvd.</name>
+        <address>1507 Westover Hiills Blvd., Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 1507 Westover Hiills Blvd., Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>1507 Westover Hiills Blvd., Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1806 Westover Hills Boulevard</name>
+        <address>1806 Westover Hills Boulevard, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 1806 Westover Hills Boulevard, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>1806 Westover Hills Boulevard, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>1903 West 42nd Street</name>
+        <address>1903 West 42nd Street, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 1903 West 42nd Street, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>1903 West 42nd Street, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>2432 Breckenridge Road</name>
+        <address>2432 Breckenridge Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 2432 Breckenridge Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>2432 Breckenridge Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4317 New Kent Avenue</name>
+        <address>4317 New Kent Avenue, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4317 New Kent Avenue, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4317 New Kent Avenue, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4608 Devonshire Road</name>
+        <address>4608 Devonshire Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4608 Devonshire Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4608 Devonshire Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4613 Sylvan Road</name>
+        <address>4613 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4613 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4613 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4615 Sylvan Road</name>
+        <address>4615 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4615 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4615 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4709 Devonshire Road</name>
+        <address>4709 Devonshire Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4709 Devonshire Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4709 Devonshire Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>4930 Forest Hill Ave</name>
+        <address>4930 Forest Hill Ave, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 4930 Forest Hill Ave, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>4930 Forest Hill Ave, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5001 Evelyn Byrd Road </name>
+        <address>5001 Evelyn Byrd Road , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5001 Evelyn Byrd Road , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5001 Evelyn Byrd Road , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5001 King William Road </name>
+        <address>5001 King William Road , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5001 King William Road , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5001 King William Road , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5004 King William Road</name>
+        <address>5004 King William Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5004 King William Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5004 King William Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5007 King William Road</name>
+        <address>5007 King William Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5007 King William Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5007 King William Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5009 Caledonia Road</name>
+        <address>5009 Caledonia Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5009 Caledonia Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5009 Caledonia Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5010 New Kent Road</name>
+        <address>5010 New Kent Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5010 New Kent Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5010 New Kent Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5013 Sylvan Road</name>
+        <address>5013 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5013 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5013 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5018 Caledonia Road</name>
+        <address>5018 Caledonia Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5018 Caledonia Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5018 Caledonia Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5022 Devonshire Road</name>
+        <address>5022 Devonshire Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5022 Devonshire Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5022 Devonshire Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5024 Devonshire Road</name>
+        <address>5024 Devonshire Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5024 Devonshire Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5024 Devonshire Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5027 Devonshire </name>
+        <address>5027 Devonshire , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5027 Devonshire , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5027 Devonshire , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5032 Sylvan Road</name>
+        <address>5032 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5032 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5032 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5032 Sylvan Road</name>
+        <address>5032 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5032 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5032 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5033 Devonshire Road </name>
+        <address>5033 Devonshire Road , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5033 Devonshire Road , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5033 Devonshire Road , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5103 Forest Hill Avenue</name>
+        <address>5103 Forest Hill Avenue, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5103 Forest Hill Avenue, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5103 Forest Hill Avenue, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5103 Sylvan Road</name>
+        <address>5103 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5103 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5103 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5103 Sylvan Road</name>
+        <address>5103 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5103 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5103 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5104 Evelyn Byrd Road</name>
+        <address>5104 Evelyn Byrd Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5104 Evelyn Byrd Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5104 Evelyn Byrd Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5105 Evelyn Byrd Road</name>
+        <address>5105 Evelyn Byrd Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5105 Evelyn Byrd Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5105 Evelyn Byrd Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5106 New Kent Road</name>
+        <address>5106 New Kent Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5106 New Kent Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5106 New Kent Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5106 Sylvan Road</name>
+        <address>5106 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5106 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5106 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5107 New Kent Road </name>
+        <address>5107 New Kent Road , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5107 New Kent Road , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5107 New Kent Road , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5108 King William Road</name>
+        <address>5108 King William Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5108 King William Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5108 King William Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5110 Devonshire Road</name>
+        <address>5110 Devonshire Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5110 Devonshire Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5110 Devonshire Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5111 Riverside Drive</name>
+        <address>5111 Riverside Drive, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5111 Riverside Drive, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5111 Riverside Drive, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5112 King William Rd</name>
+        <address>5112 King William Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5112 King William Rd, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5112 King William Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5201 King William Road</name>
+        <address>5201 King William Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5201 King William Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5201 King William Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5202 Caledonia Road</name>
+        <address>5202 Caledonia Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5202 Caledonia Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5202 Caledonia Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5214 Dorchester Road</name>
+        <address>5214 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5214 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5214 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5216 Caledonia Road</name>
+        <address>5216 Caledonia Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5216 Caledonia Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5216 Caledonia Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5300 Dorchester Road</name>
+        <address>5300 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5300 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5300 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5302 Caledonia Rd</name>
+        <address>5302 Caledonia Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5302 Caledonia Rd, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5302 Caledonia Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5302 Caledonia Road</name>
+        <address>5302 Caledonia Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5302 Caledonia Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5302 Caledonia Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5303 Dorchester Road</name>
+        <address>5303 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5303 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5303 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5303 Dorchester Road </name>
+        <address>5303 Dorchester Road , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5303 Dorchester Road , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5303 Dorchester Road , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5307 Dorchester Road</name>
+        <address>5307 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5307 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5307 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5309 Dorchester Road</name>
+        <address>5309 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5309 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5309 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5314 Dorchester Road</name>
+        <address>5314 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5314 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5314 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5314 Sylvan Road</name>
+        <address>5314 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5314 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5314 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5315 Sylvan Road</name>
+        <address>5315 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5315 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5315 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5323 Sylvan Rd</name>
+        <address>5323 Sylvan Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5323 Sylvan Rd, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5323 Sylvan Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5410 Dorchester RD</name>
+        <address>5410 Dorchester RD, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5410 Dorchester RD, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5410 Dorchester RD, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5414 Dorchester Road</name>
+        <address>5414 Dorchester Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5414 Dorchester Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5414 Dorchester Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5502 Dorchester Rd </name>
+        <address>5502 Dorchester Rd , Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5502 Dorchester Rd , Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5502 Dorchester Rd , Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5013 Sylvan Rd</name>
+        <address>5013 Sylvan Rd, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5013 Sylvan Rd, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5013 Sylvan Rd, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>5323 Sylvan Road</name>
+        <address>5323 Sylvan Road, Richmond, VA 23225</address>
+        <description><![CDATA[Timestamp: <br>Yard Sale Address: <br>Items Available: <br>RDC Refined: <br>Location: 5323 Sylvan Road, Richmond, VA 23225<br>Column 1: Richmond, VA]]></description>
+        <styleUrl>#icon-1502-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Timestamp">
+            <value/>
+          </Data>
+          <Data name="Yard Sale Address">
+            <value/>
+          </Data>
+          <Data name="Items Available">
+            <value/>
+          </Data>
+          <Data name="RDC Refined">
+            <value/>
+          </Data>
+          <Data name="Location">
+            <value>5323 Sylvan Road, Richmond, VA 23225</value>
+          </Data>
+          <Data name="Column 1">
+            <value>Richmond, VA</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

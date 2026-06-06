@@ -252,8 +252,8 @@ function render() {
 }
 
 /* ---------- geolocation ---------- */
-function locateMe() {
-  if (!navigator.geolocation) { alert("Geolocation isn't available in this browser."); return; }
+function locateMe(silent = false) {
+  if (!navigator.geolocation) { if (!silent) alert("Geolocation isn't available in this browser."); return; }
   const btn = document.getElementById("locate");
   btn.textContent = "…";
   navigator.geolocation.getCurrentPosition(pos => {
@@ -273,7 +273,7 @@ function locateMe() {
     if (route.length) reorderRoute();    // fold location into an existing route
   }, err => {
     btn.textContent = "◎";
-    alert("Couldn't get your location: " + err.message);
+    if (!silent) alert("Couldn't get your location: " + err.message);
   }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 30000 });
 }
 
@@ -364,3 +364,5 @@ document.getElementById("rhead").onclick = () => {
 };
 
 window.toggleRoute = toggleRoute;   // used by popup buttons
+
+locateMe(true);

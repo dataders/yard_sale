@@ -31,6 +31,7 @@
   #route.empty { display:none; }
   #route .rhead { display:flex; align-items:center; justify-content:space-between; padding:8px 10px; cursor:pointer; }
   #route .rhead b { font-size:.85rem; }
+  #rtoggle { font-size:.8rem; color:#888; }
   #route .rbody { padding:0 10px 10px; }
   #route.collapsed .rbody { display:none; }
   #route ol { margin:4px 0 8px; padding-left:0; list-style:none; counter-reset:stop; }
@@ -96,7 +97,7 @@
       <div id="route" class="empty collapsed">
         <div class="rhead" id="rhead">
           <b id="rtitle">Route</b>
-          <span id="rtoggle" style="font-size:.8rem;color:#888">▸</span>
+          <span id="rtoggle">▸</span>
         </div>
         <div class="rbody">
           <ol id="rlist"></ol>
@@ -105,8 +106,8 @@
             <input type="checkbox" id="startHere"> Start from my location
           </label>
           <div class="rbtns">
-            <a class="btn gmaps" id="gmaps" target="_blank" rel="noopener">Open in Google Maps ↗</a>
-            <button class="btn" id="clearRoute">Clear</button>
+            <a class="btn gmaps" id="gmaps" href="#" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+            <button type="button" class="btn" id="clearRoute">Clear</button>
           </div>
         </div>
       </div>
@@ -114,7 +115,7 @@
       <div id="list"></div>
     </aside>
     <div id="map">
-      <button id="locate" title="Show my location">◎</button>
+      <button type="button" id="locate" title="Show my location">◎</button>
     </div>
   </div>
 </div>

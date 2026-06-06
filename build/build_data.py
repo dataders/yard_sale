@@ -58,6 +58,60 @@ STREET_TYPES = {
 }
 
 
+# Map item descriptions to coarse categories via keyword (word-prefix) match.
+# A sale can land in several categories.
+CATEGORY_KEYWORDS = {
+    "Furniture": ["furniture", "table", "chair", "bed", "desk", "dresser",
+                  "couch", "sofa", "console", "bookcase", "shelv", "stool",
+                  "wardrobe", "nightstand"],
+    "Clothing & Shoes": ["clothes", "clothing", "shoe", "boot", "apparel",
+                         "madewell", "everdeen", "jacket", "dress"],
+    "Kids & Baby": ["kid", "child", "children", "baby", "toddler", "teen",
+                    "infant", "stroller", "crib"],
+    "Toys & Games": ["toy", "game", "pokemon", "manga", "puzzle", "lego",
+                     "nerd", "boardgame"],
+    "Books & Media": ["book", "album", "cd", "cds", "movie", "dvd", "vinyl",
+                      "record", "magazine", "comic"],
+    "Tools & Yard": ["tool", "mower", "yard", "garden", "generator", "fencing",
+                     "ladder", "drill", "woodworking", "saw", "hardware",
+                     "lawn", "canopy"],
+    "Antiques & Vintage": ["antique", "vintage", "mid century", "mid-century",
+                           "retro", "midcentury"],
+    "Housewares & Kitchen": ["housewares", "household", "kitchen", "dish",
+                             "glassware", "pottery", "cookware", "kitchenware",
+                             "homegoods", "home goods", "appliance", "vacuum",
+                             "purifier", "utensil", "brass", "metaphysical"],
+    "Art & Decor": ["art", "decor", "painting", "frame", "lighting",
+                    "light fixture", "lamp", "lantern", "craft", "pastel",
+                    "marker", "micron", "photography", "sculpture", "tarot",
+                    "decoration"],
+    "Bikes & Sports": ["bike", "bicycle", "golf", "snorkel", "fin", "sport",
+                       "motorcycle", "ski", "skate", "kayak", "booties"],
+    "Electronics": ["electronic", "camera", "stereo", "computer", "robot",
+                    "speaker"],
+}
+
+
+def categorize(items):
+    """Return a sorted list of categories whose keywords appear in `items`."""
+    if not items:
+        return []
+    text = items.lower()
+    found = []
+    for cat, kws in CATEGORY_KEYWORDS.items():
+        # word-prefix match: \btool matches tool/tools/toolbox, not "stool"
+        if any(re.search(r"\b" + re.escape(kw), text) for kw in kws):
+            found.append(cat)
+    return sorted(found)
+
+
+def looks_like_address(items):
+    """Some 'items' values are actually a pasted street address, not items."""
+    return ("," in items) and bool(re.match(
+        r"^\s*\d{2,5}\s+\w+.*\b(st|street|ave|avenue|rd|road|dr|drive|ln|"
+        r"lane|ct|court|blvd)\b", items.strip(), flags=re.I))
+
+
 def street_of(raw):
     """Return just the street portion (drop city/state/zip), trimmed."""
     s = raw.split(",")[0]
@@ -175,11 +229,13 @@ def main():
     missing = []
     for s in sales:
         g = coords.get(s["street"])
+        items = "" if looks_like_address(s["items"]) else s["items"]
         rec = {
             "street": s["street"],
             "address": f"{s['street']}, {CITY}, {STATE} {ZIP}",
             "sources": sorted(s["sources"]),
-            "items": s["items"],
+            "items": items,
+            "categories": categorize(items),
         }
         if g:
             rec["lat"], rec["lon"] = g["lat"], g["lon"]

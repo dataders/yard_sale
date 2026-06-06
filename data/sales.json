@@ -15,6 +15,13 @@
     "Forest Hill"
    ],
    "items": "housewares, children\u2019s items, clothing, books, art, misc.",
+   "categories": [
+    "Art & Decor",
+    "Books & Media",
+    "Clothing & Shoes",
+    "Housewares & Kitchen",
+    "Kids & Baby"
+   ],
    "lat": 37.515539676613,
    "lon": -77.480571161323
   },
@@ -25,6 +32,10 @@
     "Forest Hill"
    ],
    "items": "Clothes, dog stuff, misc household items",
+   "categories": [
+    "Clothing & Shoes",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.518931542475,
    "lon": -77.483673689209
   },
@@ -35,6 +46,12 @@
     "Forest Hill"
    ],
    "items": "Furniture, housewares, antiques, pottery, dishes, books",
+   "categories": [
+    "Antiques & Vintage",
+    "Books & Media",
+    "Furniture",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.516284276487,
    "lon": -77.478703387043
   },
@@ -45,6 +62,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.518986886131,
    "lon": -77.483806150298
   },
@@ -55,6 +73,14 @@
     "Forest Hill"
    ],
    "items": "Vintage home decor, baby clothes and other baby items, adult clothes, kitchen items, small furniture",
+   "categories": [
+    "Antiques & Vintage",
+    "Art & Decor",
+    "Clothing & Shoes",
+    "Furniture",
+    "Housewares & Kitchen",
+    "Kids & Baby"
+   ],
    "lat": 37.517621617535,
    "lon": -77.479183272987
   },
@@ -65,6 +91,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522097518278,
    "lon": -77.48786754966
   },
@@ -75,6 +102,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522773312356,
    "lon": -77.477702834162
   },
@@ -85,6 +113,11 @@
     "Forest Hill"
    ],
    "items": "Clothes women, teen boy/girl, houseware, yard",
+   "categories": [
+    "Clothing & Shoes",
+    "Kids & Baby",
+    "Tools & Yard"
+   ],
    "lat": 37.521867938157,
    "lon": -77.475814965384
   },
@@ -95,6 +128,13 @@
     "Forest Hill"
    ],
    "items": "Antique furniture and lamps, lanterns, antique smalls, tools, antique scale, glassware, antique clocks, and more",
+   "categories": [
+    "Antiques & Vintage",
+    "Art & Decor",
+    "Furniture",
+    "Housewares & Kitchen",
+    "Tools & Yard"
+   ],
    "lat": 37.522390591053,
    "lon": -77.476924285151
   },
@@ -105,6 +145,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524909898787,
    "lon": -77.48725433667
   },
@@ -115,6 +156,14 @@
     "Forest Hill"
    ],
    "items": "Albums,CD's, Golf Items, Tools, Arts and Crafts, Clothing, shoes, Household items, Multi-family sale !",
+   "categories": [
+    "Art & Decor",
+    "Bikes & Sports",
+    "Books & Media",
+    "Clothing & Shoes",
+    "Housewares & Kitchen",
+    "Tools & Yard"
+   ],
    "lat": 37.52348670127,
    "lon": -77.480829352991
   },
@@ -125,6 +174,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522775174903,
    "lon": -77.479951081187
   },
@@ -135,6 +185,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522867080836,
    "lon": -77.475048241738
   },
@@ -145,6 +196,14 @@
     "Forest Hill"
    ],
    "items": "Antique/Vintage, garden, fencing, fans, chairs, books, push mower, pop-up canopy, light fixtures, sewing machine, gas stove, 1959 BSA motorcycle, and more!",
+   "categories": [
+    "Antiques & Vintage",
+    "Art & Decor",
+    "Bikes & Sports",
+    "Books & Media",
+    "Furniture",
+    "Tools & Yard"
+   ],
    "lat": 37.513898808055,
    "lon": -77.469497732576
   },
@@ -155,6 +214,11 @@
     "Forest Hill"
    ],
    "items": "Wooden dining table and chairs, large chair, in-table, dishes and art",
+   "categories": [
+    "Art & Decor",
+    "Furniture",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.513047009343,
    "lon": -77.470803032187
   },
@@ -166,6 +230,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.532837581926,
    "lon": -77.497657062196
   },
@@ -176,6 +241,10 @@
     "Forest Hill"
    ],
    "items": "Misc yard tools, children\u2019s items, etc.",
+   "categories": [
+    "Kids & Baby",
+    "Tools & Yard"
+   ],
    "lat": 37.518737757567,
    "lon": -77.465163392363
   },
@@ -186,6 +255,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.514450956914,
    "lon": -77.465082667258
   },
@@ -196,6 +266,10 @@
     "Forest Hill"
    ],
    "items": "Womens small bike, bike floor pump, snorkel fins & booties-womens small",
+   "categories": [
+    "Bikes & Sports",
+    "Clothing & Shoes"
+   ],
    "lat": 37.517152077388,
    "lon": -77.461173804772
   },
@@ -206,6 +280,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.514844737665,
    "lon": -77.466515862292
   },
@@ -216,6 +291,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.516540641232,
    "lon": -77.468201900266
   },
@@ -226,6 +302,13 @@
     "Forest Hill"
    ],
    "items": "Furniture, clothing, wedding decor, glassware, electronics, kitchenware, and more!",
+   "categories": [
+    "Art & Decor",
+    "Clothing & Shoes",
+    "Electronics",
+    "Furniture",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.515297179818,
    "lon": -77.477037407884
   },
@@ -236,6 +319,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.513406715078,
    "lon": -77.476411957168
   },
@@ -246,6 +330,11 @@
     "Forest Hill"
    ],
    "items": "Brass bed,  shoes",
+   "categories": [
+    "Clothing & Shoes",
+    "Furniture",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.51676200776,
    "lon": -77.475228807515
   },
@@ -256,6 +345,11 @@
     "Forest Hill"
    ],
    "items": "Tables dedicated to $1 and $5 items; professional art supplies (COPIC markers, Microns, pastels, etc.), Pokemon goods, manga, misc. nerd goods",
+   "categories": [
+    "Art & Decor",
+    "Furniture",
+    "Toys & Games"
+   ],
    "lat": 37.520949147398,
    "lon": -77.476755850076
   },
@@ -266,6 +360,11 @@
     "Forest Hill"
    ],
    "items": "Toddler/children\u2019s toys, books, games, movies, etc. Also, house furnishings for a moving sale!",
+   "categories": [
+    "Books & Media",
+    "Kids & Baby",
+    "Toys & Games"
+   ],
    "lat": 37.520692409808,
    "lon": -77.478370775541
   },
@@ -276,6 +375,13 @@
     "Forest Hill"
    ],
    "items": "Kids' toys, kids' bikes, kids' clothes, books, miscellaneous",
+   "categories": [
+    "Bikes & Sports",
+    "Books & Media",
+    "Clothing & Shoes",
+    "Kids & Baby",
+    "Toys & Games"
+   ],
    "lat": 37.520601214803,
    "lon": -77.478461340749
   },
@@ -286,6 +392,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.521618029284,
    "lon": -77.477901284684
   },
@@ -296,6 +403,16 @@
     "Forest Hill"
    ],
    "items": "HomeGoods, vintage and modern, lighting, children\u2019s books, clothes from Everdeen, Madewell, vintage, designer, vintage and modern furniture, tools, especially woodworking tools, some photography equipment, and other art supplies.",
+   "categories": [
+    "Antiques & Vintage",
+    "Art & Decor",
+    "Books & Media",
+    "Clothing & Shoes",
+    "Furniture",
+    "Housewares & Kitchen",
+    "Kids & Baby",
+    "Tools & Yard"
+   ],
    "lat": 37.519664406113,
    "lon": -77.481652149514
   },
@@ -306,6 +423,11 @@
     "Forest Hill"
    ],
    "items": "7500 W portable generator w/electric start, hand tools, clothes, artworks, and more!",
+   "categories": [
+    "Art & Decor",
+    "Clothing & Shoes",
+    "Tools & Yard"
+   ],
    "lat": 37.522908019893,
    "lon": -77.481137384075
   },
@@ -316,6 +438,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522921992519,
    "lon": -77.481170410275
   },
@@ -327,6 +450,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.521083722034,
    "lon": -77.483739142363
   },
@@ -338,6 +462,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522016343974,
    "lon": -77.483304322833
   },
@@ -349,6 +474,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522024145647,
    "lon": -77.483350266007
   },
@@ -360,6 +486,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52157188578,
    "lon": -77.485816748731
   },
@@ -370,6 +497,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523213883704,
    "lon": -77.484919499851
   },
@@ -381,6 +509,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52146454065,
    "lon": -77.489375845592
   },
@@ -392,6 +521,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.526697705059,
    "lon": -77.486601276584
   },
@@ -403,6 +533,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524502756389,
    "lon": -77.488566371894
   },
@@ -414,6 +545,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524429270802,
    "lon": -77.488687623351
   },
@@ -425,6 +557,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524535288693,
    "lon": -77.488627541777
   },
@@ -436,6 +569,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524946410245,
    "lon": -77.487399919445
   },
@@ -447,6 +581,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.525785831696,
    "lon": -77.48717994857
   },
@@ -458,6 +593,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523768003942,
    "lon": -77.489158113806
   },
@@ -469,6 +605,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524948085689,
    "lon": -77.487674483463
   },
@@ -480,6 +617,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522939574871,
    "lon": -77.489850405458
   },
@@ -491,6 +629,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.522953635135,
    "lon": -77.48987671409
   },
@@ -501,6 +640,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523062725639,
    "lon": -77.489822283561
   },
@@ -511,6 +651,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523062725639,
    "lon": -77.489822283561
   },
@@ -522,6 +663,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523796585094,
    "lon": -77.489471534998
   },
@@ -533,6 +675,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52310490643,
    "lon": -77.489901209458
   },
@@ -544,6 +687,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52290578409,
    "lon": -77.491577139957
   },
@@ -555,6 +699,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524385833502,
    "lon": -77.490312869898
   },
@@ -566,6 +711,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527584333765,
    "lon": -77.48850089521
   },
@@ -577,6 +723,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527700143096,
    "lon": -77.488459809114
   },
@@ -588,6 +735,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52673790342,
    "lon": -77.488954511324
   },
@@ -598,6 +746,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.524330772353,
    "lon": -77.490466613749
   },
@@ -609,6 +758,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52683277178,
    "lon": -77.488873466237
   },
@@ -620,6 +770,12 @@
     "Westover Hills"
    ],
    "items": "Lots of Furniture, toys, games, books, art",
+   "categories": [
+    "Art & Decor",
+    "Books & Media",
+    "Furniture",
+    "Toys & Games"
+   ],
    "lat": 37.525086996178,
    "lon": -77.489900801407
   },
@@ -631,6 +787,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.523626094828,
    "lon": -77.491135695422
   },
@@ -642,6 +799,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.529326137703,
    "lon": -77.489100228716
   },
@@ -653,6 +811,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.525124047632,
    "lon": -77.489973746443
   },
@@ -663,6 +822,11 @@
     "Forest Hill"
    ],
    "items": "Clothes, pottery, metaphysical, art, tarot",
+   "categories": [
+    "Art & Decor",
+    "Clothing & Shoes",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.51853001292,
    "lon": -77.463613404597
   },
@@ -674,6 +838,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.526112098414,
    "lon": -77.491555834483
   },
@@ -685,6 +850,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.526760973753,
    "lon": -77.49105375276
   },
@@ -696,6 +862,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.525687622556,
    "lon": -77.49462969575
   },
@@ -707,6 +874,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.526868104922,
    "lon": -77.491256111593
   },
@@ -718,6 +886,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.526600102028,
    "lon": -77.494214466068
   },
@@ -729,6 +898,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527487870847,
    "lon": -77.4926095714
   },
@@ -740,6 +910,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527223291572,
    "lon": -77.494064484808
   },
@@ -751,6 +922,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527257611043,
    "lon": -77.494071550579
   },
@@ -762,6 +934,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527274770778,
    "lon": -77.494075083464
   },
@@ -773,6 +946,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.528051672668,
    "lon": -77.49463915948
   },
@@ -783,6 +957,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527122715641,
    "lon": -77.495707055543
   },
@@ -793,6 +968,7 @@
     "Forest Hill"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.527115798085,
    "lon": -77.495514551851
   },
@@ -804,6 +980,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.52723427573,
    "lon": -77.495634200188
   },
@@ -815,6 +992,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.529203200171,
    "lon": -77.495991098431
   },
@@ -826,6 +1004,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.529264788745,
    "lon": -77.496031920071
   },
@@ -837,6 +1016,7 @@
     "Westover Hills"
    ],
    "items": "",
+   "categories": [],
    "lat": 37.530787413146,
    "lon": -77.496249058793
   },
@@ -847,6 +1027,12 @@
     "Forest Hill"
    ],
    "items": "Men's bike, mid century console tables, misc household items.",
+   "categories": [
+    "Antiques & Vintage",
+    "Bikes & Sports",
+    "Furniture",
+    "Housewares & Kitchen"
+   ],
    "lat": 37.517633231124,
    "lon": -77.468751401596
   },
@@ -857,6 +1043,12 @@
     "Forest Hill"
    ],
    "items": "Furniture , yard items, household stuff, decor",
+   "categories": [
+    "Art & Decor",
+    "Furniture",
+    "Housewares & Kitchen",
+    "Tools & Yard"
+   ],
    "lat": 37.518422623646,
    "lon": -77.469082605553
   },
@@ -867,6 +1059,12 @@
     "Forest Hill"
    ],
    "items": "Household items, air purifier, robot vacuum, tools, books",
+   "categories": [
+    "Books & Media",
+    "Electronics",
+    "Housewares & Kitchen",
+    "Tools & Yard"
+   ],
    "lat": 37.521606207184,
    "lon": -77.461256843568
   },
@@ -877,6 +1075,15 @@
     "Forest Hill"
    ],
    "items": "Kitchen utensils, bedroom furniture, clothes, books, tools, bikes, kids equipment",
+   "categories": [
+    "Bikes & Sports",
+    "Books & Media",
+    "Clothing & Shoes",
+    "Furniture",
+    "Housewares & Kitchen",
+    "Kids & Baby",
+    "Tools & Yard"
+   ],
    "lat": 37.515301408451,
    "lon": -77.487334938724
   },
@@ -886,7 +1093,8 @@
    "sources": [
     "Forest Hill"
    ],
-   "items": "901 W 31st St, Richmond, VA 23225",
+   "items": "",
+   "categories": [],
    "lat": 37.521096788817,
    "lon": -77.46788992622
   }

@@ -19,6 +19,16 @@ into `data/sales.json`.
 - Searchable, scrollable sidebar list synced with the map
 - Filter by neighborhood
 - One-tap "Directions" link to Google Maps for each address
+- **Route planner** — check off any number of sales and the app orders them
+  into an efficient crawl (nearest-neighbor + 2-opt, computed in the browser),
+  draws the numbered route, and shows the total distance. "Open in Google Maps"
+  hands the ordered stops off for real turn-by-turn navigation.
+- **Show my location** — the ◎ button drops a "you are here" marker; tick
+  "Start from my location" to anchor the route at your current position.
+
+The route ordering and distances are computed client-side from straight-line
+(haversine) distances — no routing API or key required. The on-map line shows
+visiting order; tap **Open in Google Maps** for actual road navigation.
 
 ## Run locally
 
@@ -57,5 +67,7 @@ curl -sL "https://www.google.com/maps/d/kml?mid=1k8X_b4vTrQ1vcSwRDfBbHssrSvNn8v4
 
 ## Deploy
 
-Any static host works. For GitHub Pages, enable Pages on this branch/repo and
-point it at the root — no build step is needed since `data/sales.json` is committed.
+It's a plain static site, so GitHub Pages can serve it straight from the
+repo — no build step. In **Settings → Pages → Build and deployment**, set
+**Source** to *Deploy from a branch*, branch `main`, folder `/ (root)`. The
+site then publishes at `https://<owner>.github.io/yard_sale/`.

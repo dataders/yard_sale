@@ -37,6 +37,26 @@
   .leaflet-popup-content { font-size:.85rem; }
   .leaflet-popup-content .pa { font-weight:600; }
   .leaflet-popup-content a { color:var(--wh); }
+
+  /* Image scan panel */
+  #scan-btn { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.85rem; background:#fff; cursor:pointer; display:flex; align-items:center; gap:5px; }
+  #scan-btn:hover { background:#f0ece4; }
+  #scan-panel { display:none; flex-direction:column; gap:8px; padding:10px 12px; border-bottom:1px solid #e2ddd3; background:#fff; }
+  #scan-panel.open { display:flex; }
+  #preview-wrap { position:relative; }
+  #preview-img { max-width:100%; max-height:140px; border-radius:6px; display:none; object-fit:contain; }
+  #scan-result { font-size:.8rem; }
+  #scan-result .item-name { font-weight:600; font-size:.9rem; }
+  #scan-result .desc { color:#555; margin:3px 0 6px; }
+  #scan-result .match-heading { font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:#888; margin:6px 0 3px; }
+  #scan-result .match-list { list-style:none; margin:0; padding:0; }
+  #scan-result .match-list li { padding:3px 0; border-bottom:1px solid #f0ece4; cursor:pointer; font-size:.8rem; }
+  #scan-result .match-list li:hover { color:var(--wh); }
+  #scan-result .ext-links { display:flex; gap:8px; margin-top:6px; }
+  #scan-result .ext-links a { font-size:.76rem; color:var(--wh); }
+  #scan-spinner { display:none; font-size:.8rem; color:#888; }
+  #scan-error { display:none; font-size:.78rem; color:#c0392b; }
+
   @media (max-width:640px) {
     #main { flex-direction:column; }
     #sidebar { width:100%; max-width:none; height:45%; border-right:none; border-bottom:1px solid #e2ddd3; }
@@ -52,13 +72,23 @@
   <div id="main">
     <aside id="sidebar">
       <div id="controls">
-        <input id="search" type="search" placeholder="Search address or items…" autocomplete="off">
+        <div style="display:flex;gap:6px;">
+          <input id="search" type="search" placeholder="Search address or items…" autocomplete="off" style="flex:1">
+          <button id="scan-btn" title="Identify an item by photo">📷 Scan</button>
+          <input id="file-input" type="file" accept="image/*" capture="environment" style="display:none">
+        </div>
         <div class="filters">
           <span class="chip active" data-f="all">All</span>
           <span class="chip" data-f="Forest Hill">Forest Hill</span>
           <span class="chip" data-f="Westover Hills">Westover Hills</span>
         </div>
         <div id="count"></div>
+      </div>
+      <div id="scan-panel">
+        <img id="preview-img" alt="Preview">
+        <span id="scan-spinner">Analyzing image…</span>
+        <span id="scan-error"></span>
+        <div id="scan-result"></div>
       </div>
       <div id="list"></div>
     </aside>
@@ -194,6 +224,85 @@ document.querySelectorAll(".chip").forEach(chip => {
     render();
   };
 });
+
+// Image scan
+const scanBtn = document.getElementById("scan-btn");
+const fileInput = document.getElementById("file-input");
+const scanPanel = document.getElementById("scan-panel");
+const previewImg = document.getElementById("preview-img");
+const scanSpinner = document.getElementById("scan-spinner");
+const scanError = document.getElementById("scan-error");
+const scanResult = document.getElementById("scan-result");
+
+scanBtn.onclick = () => fileInput.click();
+
+fileInput.onchange = async () => {
+  const file = fileInput.files[0];
+  if (!file) return;
+
+  // Show panel + preview
+  scanPanel.classList.add("open");
+  scanResult.innerHTML = "";
+  scanError.style.display = "none";
+  scanSpinner.style.display = "inline";
+  previewImg.style.display = "none";
+
+  const reader = new FileReader();
+  reader.onload = e => {
+    previewImg.src = e.target.result;
+    previewImg.style.display = "block";
+  };
+  reader.readAsDataURL(file);
+
+  try {
+    const form = new FormData();
+    form.append("file", file);
+    const res = await fetch("/api/analyze", { method: "POST", body: form });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ detail: res.statusText }));
+      throw new Error(err.detail || res.statusText);
+    }
+    const data = await res.json();
+    scanSpinner.style.display = "none";
+    renderScanResult(data);
+  } catch (e) {
+    scanSpinner.style.display = "none";
+    scanError.textContent = "Error: " + e.message;
+    scanError.style.display = "inline";
+  }
+
+  fileInput.value = "";
+};
+
+function renderScanResult(data) {
+  let html = `<div class="item-name">${data.item}</div>`;
+  if (data.description) html += `<div class="desc">${data.description}</div>`;
+
+  if (data.matches && data.matches.length) {
+    html += `<div class="match-heading">Nearby sales with similar items</div><ul class="match-list">`;
+    for (const m of data.matches) {
+      html += `<li data-street="${CSS.escape(m.street)}">${m.street}` +
+              (m.items ? ` <span style="color:#888">— ${m.items.slice(0,60)}${m.items.length>60?"…":""}</span>` : "") +
+              `</li>`;
+    }
+    html += `</ul>`;
+  } else {
+    html += `<div class="desc" style="color:#888">No matching listings found at nearby sales.</div>`;
+  }
+
+  if (data.external) {
+    html += `<div class="ext-links">`;
+    if (data.external.ebay) html += `<a href="${data.external.ebay}" target="_blank" rel="noopener">eBay ↗</a>`;
+    if (data.external.facebook) html += `<a href="${data.external.facebook}" target="_blank" rel="noopener">FB Marketplace ↗</a>`;
+    html += `</div>`;
+  }
+
+  scanResult.innerHTML = html;
+
+  scanResult.querySelectorAll(".match-list li").forEach(li => {
+    li.onclick = () => select(li.dataset.street, false);
+  });
+}
 </script>
 </body>
 </html>

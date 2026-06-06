@@ -65,6 +65,21 @@ curl -sL "https://www.google.com/maps/d/kml?mid=1k8X_b4vTrQ1vcSwRDfBbHssrSvNn8v4
   -o build/source_map.kml
 ```
 
+## Linting
+
+HTML and JS are linted to catch mistakes like the unterminated `<script>` tag
+that once broke the page in iOS in-app browsers:
+
+```bash
+npm install   # one-time
+npm run lint        # html-validate + eslint
+npm run lint:html   # validates *.html (unclosed tags, bad nesting, …)
+npm run lint:js     # eslint app.js (undefined vars, unused vars, …)
+```
+
+CI runs the same checks on every push and pull request
+(`.github/workflows/lint.yml`).
+
 ## Deploy
 
 It's a plain static site, so GitHub Pages can serve it straight from the

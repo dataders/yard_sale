@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"   # html-validate@11 needs Node >= 22.22 (uses fs.globSync)
       - run: npm install --no-audit --no-fund
       - name: Validate HTML (catches unclosed tags, etc.)
         run: npm run lint:html

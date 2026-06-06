@@ -19,6 +19,16 @@ into `data/sales.json`.
 - Searchable, scrollable sidebar list synced with the map
 - Filter by neighborhood
 - One-tap "Directions" link to Google Maps for each address
+- **Route planner** — check off any number of sales and the app orders them
+  into an efficient crawl (nearest-neighbor + 2-opt, computed in the browser),
+  draws the numbered route, and shows the total distance. "Open in Google Maps"
+  hands the ordered stops off for real turn-by-turn navigation.
+- **Show my location** — the ◎ button drops a "you are here" marker; tick
+  "Start from my location" to anchor the route at your current position.
+
+The route ordering and distances are computed client-side from straight-line
+(haversine) distances — no routing API or key required. The on-map line shows
+visiting order; tap **Open in Google Maps** for actual road navigation.
 
 ## Run locally
 

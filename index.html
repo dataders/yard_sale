@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
-  :root { --bg:#f7f5f0; --ink:#2b2b2b; --fh:#7b2d8e; --wh:#1c6e8c; --both:#b85c00; }
+  :root { --bg:#f7f5f0; --ink:#2b2b2b; --fh:#7b2d8e; --wh:#1c6e8c; --both:#b85c00; --route:#d62828; }
   * { box-sizing: border-box; }
   html, body { margin:0; height:100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); }
   #app { display:flex; flex-direction:column; height:100%; }
@@ -25,21 +25,52 @@
   .chip[data-f="Forest Hill"].active { background:var(--fh); }
   .chip[data-f="Westover Hills"].active { background:var(--wh); }
   #count { font-size:.74rem; color:#777; padding:0 2px; }
+
+  /* Route panel */
+  #route { border-bottom:1px solid #e2ddd3; background:#fff; }
+  #route.empty { display:none; }
+  #route .rhead { display:flex; align-items:center; justify-content:space-between; padding:8px 10px; cursor:pointer; }
+  #route .rhead b { font-size:.85rem; }
+  #route .rbody { padding:0 10px 10px; }
+  #route.collapsed .rbody { display:none; }
+  #route ol { margin:4px 0 8px; padding-left:0; list-style:none; counter-reset:stop; }
+  #route li { display:flex; align-items:center; gap:7px; font-size:.82rem; padding:2px 0; }
+  #route li .num { flex:none; width:18px; height:18px; border-radius:50%; background:var(--route); color:#fff; font-size:.66rem; display:flex; align-items:center; justify-content:center; }
+  #route li .x { margin-left:auto; color:#bbb; cursor:pointer; font-weight:700; padding:0 4px; }
+  #route li .x:hover { color:var(--route); }
+  #route .stats { font-size:.76rem; color:#555; margin-bottom:7px; }
+  .rbtns { display:flex; gap:6px; flex-wrap:wrap; }
+  .btn { font-size:.78rem; padding:6px 10px; border-radius:6px; border:1px solid #cfc8ba; background:#fff; cursor:pointer; color:var(--ink); text-decoration:none; display:inline-block; }
+  .btn.primary { background:var(--route); border-color:transparent; color:#fff; }
+  .btn.gmaps { background:#1a73e8; border-color:transparent; color:#fff; }
+  label.startopt { display:flex; align-items:center; gap:6px; font-size:.76rem; color:#555; margin:7px 0; }
+
   #list { overflow-y:auto; flex:1; }
-  .item { padding:9px 12px; border-bottom:1px solid #ebe6db; cursor:pointer; }
+  .item { padding:9px 12px; border-bottom:1px solid #ebe6db; cursor:pointer; display:flex; gap:8px; align-items:flex-start; }
   .item:hover { background:#fff; }
   .item.sel { background:#fff; box-shadow: inset 3px 0 0 var(--both); }
+  .item .body { flex:1; min-width:0; }
   .item .addr { font-weight:600; font-size:.9rem; }
   .item .src { font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; color:#888; margin-top:2px; }
   .item .items { font-size:.78rem; color:#555; margin-top:3px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-  #map { flex:1; }
+  .item .pick { flex:none; margin-top:2px; }
+  .item .pick input { width:17px; height:17px; accent-color:var(--route); }
+
+  #map { flex:1; position:relative; }
+  #locate { position:absolute; z-index:500; right:10px; top:10px; width:40px; height:40px; border-radius:8px; border:1px solid #cfc8ba; background:#fff; cursor:pointer; font-size:1.1rem; box-shadow:0 1px 4px rgba(0,0,0,.2); }
+  #locate.on { background:#1a73e8; color:#fff; border-color:transparent; }
   .dot { border-radius:50%; border:2px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.25); }
+  .numpin { border-radius:50%; border:2px solid #fff; background:var(--route); color:#fff; font-weight:700; font-size:.72rem; display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 1px rgba(0,0,0,.3); }
+  .mepin { border-radius:50%; background:#1a73e8; border:3px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.3); }
   .leaflet-popup-content { font-size:.85rem; }
   .leaflet-popup-content .pa { font-weight:600; }
   .leaflet-popup-content a { color:var(--wh); }
+  .leaflet-popup-content button.addbtn { margin-top:6px; font-size:.78rem; padding:4px 9px; border-radius:6px; border:1px solid var(--route); background:#fff; color:var(--route); cursor:pointer; }
+  .leaflet-popup-content button.addbtn.added { background:var(--route); color:#fff; }
+
   @media (max-width:640px) {
     #main { flex-direction:column; }
-    #sidebar { width:100%; max-width:none; height:45%; border-right:none; border-bottom:1px solid #e2ddd3; }
+    #sidebar { width:100%; max-width:none; height:48%; border-right:none; border-bottom:1px solid #e2ddd3; }
   }
 </style>
 </head>
@@ -60,9 +91,30 @@
         </div>
         <div id="count"></div>
       </div>
+
+      <div id="route" class="empty collapsed">
+        <div class="rhead" id="rhead">
+          <b id="rtitle">Route</b>
+          <span id="rtoggle" style="font-size:.8rem;color:#888">▸</span>
+        </div>
+        <div class="rbody">
+          <ol id="rlist"></ol>
+          <div class="stats" id="rstats"></div>
+          <label class="startopt">
+            <input type="checkbox" id="startHere"> Start from my location
+          </label>
+          <div class="rbtns">
+            <a class="btn gmaps" id="gmaps" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+            <button class="btn" id="clearRoute">Clear</button>
+          </div>
+        </div>
+      </div>
+
       <div id="list"></div>
     </aside>
-    <div id="map"></div>
+    <div id="map">
+      <button id="locate" title="Show my location">◎</button>
+    </div>
   </div>
 </div>
 
@@ -70,20 +122,18 @@
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 const COLORS = { "Forest Hill": "#7b2d8e", "Westover Hills": "#1c6e8c", both: "#b85c00" };
-
-function srcColor(sources) {
-  if (sources.length > 1) return COLORS.both;
-  return COLORS[sources[0]] || "#555";
-}
-function srcLabel(sources) {
-  return sources.length > 1 ? "Both neighborhoods" : sources[0];
-}
+const srcColor = s => s.length > 1 ? COLORS.both : (COLORS[s[0]] || "#555");
+const srcLabel = s => s.length > 1 ? "Both neighborhoods" : s[0];
 
 let SALES = [];
+let byStreet = new Map();        // street -> sale record
 let filter = "all";
 let query = "";
-const markers = new Map();   // street -> leaflet marker
-let selected = null;
+const markers = new Map();       // street -> leaflet marker
+const route = [];                // ordered array of streets (selected stops)
+let selected = null;             // highlighted (clicked) street
+let userLoc = null;              // {lat, lon}
+let meMarker = null, meCircle = null, routeLine = null;
 
 const map = L.map("map", { scrollWheelZoom: true });
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -91,28 +141,158 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-function makeIcon(sources, big) {
-  const c = srcColor(sources);
-  const d = big ? 20 : 13;
-  return L.divIcon({
-    className: "",
-    html: `<div class="dot" style="width:${d}px;height:${d}px;background:${c}"></div>`,
-    iconSize: [d, d], iconAnchor: [d/2, d/2]
-  });
+/* ---------- geometry helpers ---------- */
+function haversine(a, b) {
+  const R = 6371000, toR = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * toR, dLon = (b.lon - a.lon) * toR;
+  const la1 = a.lat * toR, la2 = b.lat * toR;
+  const h = Math.sin(dLat/2)**2 + Math.cos(la1)*Math.cos(la2)*Math.sin(dLon/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+function pathLength(pts) {
+  let d = 0;
+  for (let i = 1; i < pts.length; i++) d += haversine(pts[i-1], pts[i]);
+  return d;
+}
+// Nearest-neighbor ordering of `stops` beginning nearest to `start`,
+// then 2-opt improvement. `start` is fixed at the front if provided.
+function optimize(stops, start) {
+  if (stops.length <= 2) return stops.slice();
+  const remaining = stops.slice();
+  const order = [];
+  let cur = start || remaining.shift();
+  if (!start) order.push(cur);
+  while (remaining.length) {
+    let bi = 0, bd = Infinity;
+    for (let i = 0; i < remaining.length; i++) {
+      const d = haversine(cur, remaining[i]);
+      if (d < bd) { bd = d; bi = i; }
+    }
+    cur = remaining.splice(bi, 1)[0];
+    order.push(cur);
+  }
+  // 2-opt over `order` (keeping an optional fixed start point out front)
+  const seq = start ? [start, ...order] : order;
+  const fixed = start ? 1 : 0;
+  let improved = true;
+  while (improved) {
+    improved = false;
+    for (let i = fixed; i < seq.length - 1; i++) {
+      for (let k = i + 1; k < seq.length; k++) {
+        const a = seq[i-1] || seq[i], b = seq[i];
+        const c = seq[k], d = seq[k+1];
+        if (!d && i === fixed) continue;
+        const before = haversine(a, b) + (d ? haversine(c, d) : 0);
+        const after = haversine(a, c) + (d ? haversine(b, d) : 0);
+        if (after + 1e-6 < before) {
+          let lo = i, hi = k;
+          while (lo < hi) { const t = seq[lo]; seq[lo] = seq[hi]; seq[hi] = t; lo++; hi--; }
+          improved = true;
+        }
+      }
+    }
+  }
+  return start ? seq.slice(1) : seq;
 }
 
-function mapsLink(addr) {
-  return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(addr);
+/* ---------- markers ---------- */
+function makeIcon(sale, big) {
+  const idx = route.indexOf(sale.street);
+  if (idx >= 0) {
+    const d = 24;
+    return L.divIcon({ className: "",
+      html: `<div class="numpin" style="width:${d}px;height:${d}px">${idx+1}</div>`,
+      iconSize: [d, d], iconAnchor: [d/2, d/2] });
+  }
+  const c = srcColor(sale.sources);
+  const d = big ? 19 : 13;
+  return L.divIcon({ className: "",
+    html: `<div class="dot" style="width:${d}px;height:${d}px;background:${c}"></div>`,
+    iconSize: [d, d], iconAnchor: [d/2, d/2] });
 }
+function refreshIcon(street) {
+  const m = markers.get(street), s = byStreet.get(street);
+  if (m && s) m.setIcon(makeIcon(s, street === selected));
+}
+const mapsLink = addr =>
+  "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(addr);
 
 function popupHtml(s) {
+  const inRoute = route.includes(s.street);
   let h = `<div class="pa">${s.street}</div>`;
   h += `<div style="font-size:.72rem;color:${srcColor(s.sources)};text-transform:uppercase">${srcLabel(s.sources)}</div>`;
   if (s.items) h += `<div style="margin-top:5px">${s.items}</div>`;
   h += `<div style="margin-top:6px"><a target="_blank" rel="noopener" href="${mapsLink(s.address)}">Directions ↗</a></div>`;
+  h += `<button class="addbtn ${inRoute ? "added" : ""}" onclick="toggleRoute('${s.street.replace(/'/g, "\\'")}')">`
+     + `${inRoute ? "✓ In route" : "+ Add to route"}</button>`;
   return h;
 }
 
+/* ---------- route ---------- */
+function toggleRoute(street) {
+  const i = route.indexOf(street);
+  if (i >= 0) route.splice(i, 1);
+  else route.push(street);
+  reorderRoute();
+}
+function reorderRoute() {
+  // Re-optimize the current route set and redraw everything.
+  const stops = route.map(st => byStreet.get(st)).filter(Boolean);
+  const start = (document.getElementById("startHere").checked && userLoc) ? userLoc : null;
+  const ordered = optimize(stops, start);
+  route.length = 0;
+  ordered.forEach(s => route.push(s.street));
+  renderRoute(start, ordered);
+  render();                       // refresh list checkboxes
+  markers.forEach((_, st) => refreshIcon(st));
+}
+function renderRoute(start, ordered) {
+  const panel = document.getElementById("route");
+  panel.classList.toggle("empty", route.length === 0);
+  if (route.length) { panel.classList.remove("collapsed"); document.getElementById("rtoggle").textContent = "▾"; }
+
+  const ol = document.getElementById("rlist");
+  ol.innerHTML = "";
+  ordered.forEach((s, i) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<span class="num">${i+1}</span><span>${s.street}</span><span class="x" title="remove">✕</span>`;
+    li.querySelector(".x").onclick = () => toggleRoute(s.street);
+    li.querySelector("span:nth-child(2)").style.cursor = "pointer";
+    li.querySelector("span:nth-child(2)").onclick = () => select(s.street, false);
+    ol.appendChild(li);
+  });
+  document.getElementById("rtitle").textContent = `Route · ${route.length} stop${route.length===1?"":"s"}`;
+
+  // draw line through (optional start +) ordered stops
+  if (routeLine) { map.removeLayer(routeLine); routeLine = null; }
+  const pts = [...(start ? [start] : []), ...ordered];
+  if (pts.length >= 2) {
+    routeLine = L.polyline(pts.map(p => [p.lat, p.lon]),
+      { color: "#d62828", weight: 4, opacity: .75, dashArray: "1 8", lineCap: "round" }).addTo(map);
+    const meters = pathLength(pts);
+    document.getElementById("rstats").textContent =
+      `≈ ${(meters/1609.34).toFixed(2)} mi door-to-door` + (start ? " from your location" : "");
+  } else {
+    document.getElementById("rstats").textContent =
+      route.length === 1 ? "Add another stop to build a route." : "";
+  }
+
+  // Google Maps directions handoff, stops in optimized order
+  const g = document.getElementById("gmaps");
+  if (ordered.length >= 1) {
+    const wp = [...(start ? [start] : []), ...ordered].map(p => `${p.lat},${p.lon}`);
+    const origin = wp.shift();
+    const dest = wp.pop() || origin;
+    let url = `https://www.google.com/maps/dir/?api=1&travelmode=driving&origin=${origin}&destination=${dest}`;
+    if (wp.length) url += `&waypoints=${wp.join("|")}`;
+    g.href = url;
+    g.style.display = "";
+  } else {
+    g.style.display = "none";
+  }
+}
+
+/* ---------- list + selection ---------- */
 function visible(s) {
   if (filter !== "all" && !s.sources.includes(filter)) return false;
   if (query) {
@@ -121,56 +301,85 @@ function visible(s) {
   }
   return true;
 }
-
 function select(street, fromMap) {
   selected = street;
   document.querySelectorAll(".item").forEach(el =>
     el.classList.toggle("sel", el.dataset.street === street));
+  markers.forEach((_, st) => refreshIcon(st));
   const m = markers.get(street);
   if (m) {
-    m.setIcon(makeIcon(m._sources, true));
-    markers.forEach((mm, st) => { if (st !== street) mm.setIcon(makeIcon(mm._sources, false)); });
     if (!fromMap) map.setView(m.getLatLng(), Math.max(map.getZoom(), 16), { animate: true });
+    m.setPopupContent(popupHtml(byStreet.get(street)));
     m.openPopup();
-    const el = document.querySelector(`.item[data-street="${CSS.escape(street)}"]`);
-    if (el && fromMap) el.scrollIntoView({ block: "nearest" });
+    if (fromMap) {
+      const el = document.querySelector(`.item[data-street="${CSS.escape(street)}"]`);
+      if (el) el.scrollIntoView({ block: "nearest" });
+    }
   }
 }
-
 function render() {
   const list = document.getElementById("list");
   list.innerHTML = "";
   let shown = 0;
   for (const s of SALES) {
-    const m = markers.get(s.street);
-    const show = visible(s);
+    const m = markers.get(s.street), show = visible(s);
     if (m) { if (show) m.addTo(map); else map.removeLayer(m); }
     if (!show) continue;
     shown++;
     const div = document.createElement("div");
     div.className = "item" + (s.street === selected ? " sel" : "");
     div.dataset.street = s.street;
+    const checked = route.includes(s.street) ? "checked" : "";
     div.innerHTML =
-      `<div class="addr">${s.street}</div>` +
-      `<div class="src" style="color:${srcColor(s.sources)}">${srcLabel(s.sources)}</div>` +
-      (s.items ? `<div class="items">${s.items}</div>` : "");
-    div.onclick = () => select(s.street, false);
+      `<label class="pick"><input type="checkbox" ${checked}></label>` +
+      `<div class="body">` +
+        `<div class="addr">${s.street}</div>` +
+        `<div class="src" style="color:${srcColor(s.sources)}">${srcLabel(s.sources)}</div>` +
+        (s.items ? `<div class="items">${s.items}</div>` : "") +
+      `</div>`;
+    div.querySelector(".pick input").onclick = e => { e.stopPropagation(); toggleRoute(s.street); };
+    div.querySelector(".pick").onclick = e => e.stopPropagation();
+    div.querySelector(".body").onclick = () => select(s.street, false);
     list.appendChild(div);
   }
-  document.getElementById("count").textContent =
-    `${shown} of ${SALES.length} sales shown`;
+  document.getElementById("count").textContent = `${shown} of ${SALES.length} sales shown`;
 }
 
+/* ---------- geolocation ---------- */
+function locateMe() {
+  if (!navigator.geolocation) { alert("Geolocation isn't available in this browser."); return; }
+  const btn = document.getElementById("locate");
+  btn.textContent = "…";
+  navigator.geolocation.getCurrentPosition(pos => {
+    btn.textContent = "◎"; btn.classList.add("on");
+    userLoc = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+    const acc = pos.coords.accuracy || 30;
+    if (meMarker) map.removeLayer(meMarker);
+    if (meCircle) map.removeLayer(meCircle);
+    meMarker = L.marker([userLoc.lat, userLoc.lon], {
+      icon: L.divIcon({ className: "", html: `<div class="mepin" style="width:16px;height:16px"></div>`,
+        iconSize: [16,16], iconAnchor: [8,8] }), zIndexOffset: 1000
+    }).addTo(map).bindPopup("You are here");
+    meCircle = L.circle([userLoc.lat, userLoc.lon], { radius: acc, color: "#1a73e8", weight: 1, fillOpacity: .1 }).addTo(map);
+    map.setView([userLoc.lat, userLoc.lon], Math.max(map.getZoom(), 15));
+    if (route.length) reorderRoute();    // fold location into an existing route
+  }, err => {
+    btn.textContent = "◎";
+    alert("Couldn't get your location: " + err.message);
+  }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 30000 });
+}
+
+/* ---------- boot ---------- */
 fetch("data/sales.json").then(r => r.json()).then(data => {
   SALES = data.sales.filter(s => typeof s.lat === "number");
   SALES.sort((a, b) => a.street.localeCompare(b.street, undefined, { numeric: true }));
+  SALES.forEach(s => byStreet.set(s.street, s));
   document.getElementById("subtitle").textContent =
     `${data.date} · ${data.time} · ${SALES.length} sales`;
 
   const pts = [];
   for (const s of SALES) {
-    const m = L.marker([s.lat, s.lon], { icon: makeIcon(s.sources, false) });
-    m._sources = s.sources;
+    const m = L.marker([s.lat, s.lon], { icon: makeIcon(s, false) });
     m.bindPopup(popupHtml(s));
     m.on("click", () => select(s.street, true));
     markers.set(s.street, m);
@@ -184,8 +393,7 @@ fetch("data/sales.json").then(r => r.json()).then(data => {
 });
 
 document.getElementById("search").addEventListener("input", e => {
-  query = e.target.value.trim().toLowerCase();
-  render();
+  query = e.target.value.trim().toLowerCase(); render();
 });
 document.querySelectorAll(".chip").forEach(chip => {
   chip.onclick = () => {
@@ -194,6 +402,19 @@ document.querySelectorAll(".chip").forEach(chip => {
     render();
   };
 });
-</script>
-</body>
-</html>
+document.getElementById("locate").onclick = locateMe;
+document.getElementById("clearRoute").onclick = () => {
+  route.length = 0;
+  if (routeLine) { map.removeLayer(routeLine); routeLine = null; }
+  reorderRoute();
+};
+document.getElementById("startHere").onchange = () => {
+  if (document.getElementById("startHere").checked && !userLoc) locateMe();
+  else reorderRoute();
+};
+document.getElementById("rhead").onclick = () => {
+  const collapsed = document.getElementById("route").classList.toggle("collapsed");
+  document.getElementById("rtoggle").textContent = collapsed ? "▸" : "▾";
+};
+
+window.toggleRoute = toggleRoute;   // used by popup buttons

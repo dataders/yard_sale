@@ -67,5 +67,7 @@ curl -sL "https://www.google.com/maps/d/kml?mid=1k8X_b4vTrQ1vcSwRDfBbHssrSvNn8v4
 
 ## Deploy
 
-Any static host works. For GitHub Pages, enable Pages on this branch/repo and
-point it at the root — no build step is needed since `data/sales.json` is committed.
+It's a plain static site, so GitHub Pages can serve it straight from the
+repo — no build step. In **Settings → Pages → Build and deployment**, set
+**Source** to *Deploy from a branch*, branch `main`, folder `/ (root)`. The
+site then publishes at `https://<owner>.github.io/yard_sale/`.

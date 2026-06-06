@@ -1,0 +1,422 @@
+{
+ "5001 Evelyn Byrd Road": {
+  "lat": 37.526697705059,
+  "lon": -77.486601276584,
+  "matched": "5001 EVELYN BYRD RD, RICHMOND, VA, 23225"
+ },
+ "5001 King William Road": {
+  "lat": 37.524502756389,
+  "lon": -77.488566371894,
+  "matched": "5001 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "5004 King William Road": {
+  "lat": 37.524429270802,
+  "lon": -77.488687623351,
+  "matched": "5004 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "5007 King William Road": {
+  "lat": 37.524535288693,
+  "lon": -77.488627541777,
+  "matched": "5007 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "5009 Caledonia Road": {
+  "lat": 37.524946410245,
+  "lon": -77.487399919445,
+  "matched": "5009 CALEDONIA RD, RICHMOND, VA, 23225"
+ },
+ "5010 New Kent Road": {
+  "lat": 37.525785831696,
+  "lon": -77.48717994857,
+  "matched": "5010 NEW KENT RD, RICHMOND, VA, 23225"
+ },
+ "5013 Sylvan Road": {
+  "lat": 37.523768003942,
+  "lon": -77.489158113806,
+  "matched": "5013 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "5018 Caledonia Road": {
+  "lat": 37.524948085689,
+  "lon": -77.487674483463,
+  "matched": "5018 CALEDONIA RD, RICHMOND, VA, 23225"
+ },
+ "5022 Devonshire Road": {
+  "lat": 37.522939574871,
+  "lon": -77.489850405458,
+  "matched": "5022 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "5024 Devonshire Road": {
+  "lat": 37.522953635135,
+  "lon": -77.48987671409,
+  "matched": "5024 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "4532 New Kent Ave": {
+  "lat": 37.522908019893,
+  "lon": -77.481137384075,
+  "matched": "4532 NEW KENT AVE, RICHMOND, VA, 23225"
+ },
+ "5027 Devonshire": {
+  "lat": 37.523062725639,
+  "lon": -77.489822283561,
+  "matched": "5027 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "1203 W 45th St": {
+  "lat": 37.518931542475,
+  "lon": -77.483673689209,
+  "matched": "1203 W 45TH ST, RICHMOND, VA, 23225"
+ },
+ "5032 Sylvan Road": {
+  "lat": 37.523796585094,
+  "lon": -77.489471534998,
+  "matched": "5032 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "1805 W 43rd St": {
+  "lat": 37.522390591053,
+  "lon": -77.476924285151,
+  "matched": "1805 W 43RD ST, RICHMOND, VA, 23225"
+ },
+ "5033 Devonshire Road": {
+  "lat": 37.52310490643,
+  "lon": -77.489901209458,
+  "matched": "5033 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "1302 W 42nd St": {
+  "lat": 37.517621617535,
+  "lon": -77.479183272987,
+  "matched": "1302 W 42ND ST, RICHMOND, VA, 23225"
+ },
+ "5103 Forest Hill Avenue": {
+  "lat": 37.52290578409,
+  "lon": -77.491577139957,
+  "matched": "5103 FOREST HILL AVE, RICHMOND, VA, 23225"
+ },
+ "1206 W 41st St": {
+  "lat": 37.516284276487,
+  "lon": -77.478703387043,
+  "matched": "1206 W 41ST ST, RICHMOND, VA, 23225"
+ },
+ "5103 Sylvan Road": {
+  "lat": 37.524385833502,
+  "lon": -77.490312869898,
+  "matched": "5103 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "518 W 29th St": {
+  "lat": 37.51853001292,
+  "lon": -77.463613404597,
+  "matched": "518 W 29TH ST, RICHMOND, VA, 23225"
+ },
+ "5104 Evelyn Byrd Road": {
+  "lat": 37.527584333765,
+  "lon": -77.48850089521,
+  "matched": "5104 EVELYN BYRD RD, RICHMOND, VA, 23225"
+ },
+ "209 Dundee Ave": {
+  "lat": 37.513047009343,
+  "lon": -77.470803032187,
+  "matched": "209 DUNDEE AVE, RICHMOND, VA, 23225"
+ },
+ "208 W 34th St": {
+  "lat": 37.513898808055,
+  "lon": -77.469497732576,
+  "matched": "208 W 34TH ST, RICHMOND, VA, 23225"
+ },
+ "3311 Semmes Ave": {
+  "lat": 37.516540641232,
+  "lon": -77.468201900266,
+  "matched": "3311 SEMMES AVE, RICHMOND, VA, 23225"
+ },
+ "4206 New Kent Ave": {
+  "lat": 37.520949147398,
+  "lon": -77.476755850076,
+  "matched": "4206 NEW KENT AVE, RICHMOND, VA, 23225"
+ },
+ "4301 Stonewall Ave": {
+  "lat": 37.520692409808,
+  "lon": -77.478370775541,
+  "matched": "4301 STONEWALL AVE, RICHMOND, VA, 23225"
+ },
+ "5108 King William Rd": {
+  "lat": 37.525086996178,
+  "lon": -77.489900801407,
+  "matched": "5108 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "823 W 47th Street": {
+  "lat": 37.515301408451,
+  "lon": -77.487334938724,
+  "matched": "823 W 47TH ST, RICHMOND, VA, 23225"
+ },
+ "4302 Stonewall Ave": {
+  "lat": 37.520601214803,
+  "lon": -77.478461340749,
+  "matched": "4302 STONEWALL AVE, RICHMOND, VA, 23225"
+ },
+ "1206 W 45th St": {
+  "lat": 37.518986886131,
+  "lon": -77.483806150298,
+  "matched": "1206 W 45TH ST, RICHMOND, VA, 23225"
+ },
+ "3108 Forest Hill Ave": {
+  "lat": 37.514450956914,
+  "lon": -77.465082667258,
+  "matched": "3108 FOREST HILL AVE, RICHMOND, VA, 23225"
+ },
+ "1011 W 42nd St": {
+  "lat": 37.515539676613,
+  "lon": -77.480571161323,
+  "matched": "1011 W 42ND ST, RICHMOND, VA, 23225"
+ },
+ "1804 W 44th Street": {
+  "lat": 37.522773312356,
+  "lon": -77.477702834162,
+  "matched": "1804 W 44TH ST, RICHMOND, VA, 23225"
+ },
+ "1805 W 42nd St": {
+  "lat": 37.521867938157,
+  "lon": -77.475814965384,
+  "matched": "1805 W 42ND ST, RICHMOND, VA, 23225"
+ },
+ "4012 Dunston Ave": {
+  "lat": 37.515297179818,
+  "lon": -77.477037407884,
+  "matched": "4012 DUNSTON AVE, RICHMOND, VA, 23225"
+ },
+ "5105 Evelyn Byrd Road": {
+  "lat": 37.527700143096,
+  "lon": -77.488459809114,
+  "matched": "5105 EVELYN BYRD RD, RICHMOND, VA, 23225"
+ },
+ "5106 New Kent Road": {
+  "lat": 37.52673790342,
+  "lon": -77.488954511324,
+  "matched": "5106 NEW KENT RD, RICHMOND, VA, 23225"
+ },
+ "5106 Sylvan Road": {
+  "lat": 37.524330772353,
+  "lon": -77.490466613749,
+  "matched": "5106 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "5107 New Kent Road": {
+  "lat": 37.52683277178,
+  "lon": -77.488873466237,
+  "matched": "5107 NEW KENT RD, RICHMOND, VA, 23225"
+ },
+ "701 W 33rd St": {
+  "lat": 37.518422623646,
+  "lon": -77.469082605553,
+  "matched": "701 W 33RD ST, RICHMOND, VA, 23225"
+ },
+ "5110 Devonshire Road": {
+  "lat": 37.523626094828,
+  "lon": -77.491135695422,
+  "matched": "5110 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "4026 Northrop St": {
+  "lat": 37.513406715078,
+  "lon": -77.476411957168,
+  "matched": "4026 NORTHROP ST, RICHMOND, VA, 23225"
+ },
+ "5111 Riverside Drive": {
+  "lat": 37.529326137703,
+  "lon": -77.489100228716,
+  "matched": "5111 RIVERSIDE DR, RICHMOND, VA, 23225"
+ },
+ "618 W 33rd St": {
+  "lat": 37.517633231124,
+  "lon": -77.468751401596,
+  "matched": "618 W 33RD ST, RICHMOND, VA, 23225"
+ },
+ "5112 King William Rd": {
+  "lat": 37.525124047632,
+  "lon": -77.489973746443,
+  "matched": "5112 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "1807 Woodbine Rd": {
+  "lat": 37.52348670127,
+  "lon": -77.480829352991,
+  "matched": "1807 WOODBINE RD, RICHMOND, VA, 23225"
+ },
+ "5201 King William Road": {
+  "lat": 37.526112098414,
+  "lon": -77.491555834483,
+  "matched": "5201 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "1816 W 45th St": {
+  "lat": 37.522775174903,
+  "lon": -77.479951081187,
+  "matched": "1816 W 45TH ST, RICHMOND, VA, 23225"
+ },
+ "5202 Caledonia Road": {
+  "lat": 37.526760973753,
+  "lon": -77.49105375276,
+  "matched": "5202 CALEDONIA RD, RICHMOND, VA, 23225"
+ },
+ "3000 Springhill Ave": {
+  "lat": 37.518737757567,
+  "lon": -77.465163392363,
+  "matched": "3000 SPRINGHILL AVE, RICHMOND, VA, 23225"
+ },
+ "5214 Dorchester Road": {
+  "lat": 37.525687622556,
+  "lon": -77.49462969575,
+  "matched": "5214 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "4030 Forest Hill Ave": {
+  "lat": 37.51676200776,
+  "lon": -77.475228807515,
+  "matched": "4030 FOREST HILL AVE, RICHMOND, VA, 23225"
+ },
+ "901 W 31st St": {
+  "lat": 37.521096788817,
+  "lon": -77.46788992622,
+  "matched": "901 W 31ST ST, RICHMOND, VA, 23225"
+ },
+ "706 W 26th St": {
+  "lat": 37.521606207184,
+  "lon": -77.461256843568,
+  "matched": "706 W 26TH ST, RICHMOND, VA, 23225"
+ },
+ "4711 King William Rd": {
+  "lat": 37.523213883704,
+  "lon": -77.484919499851,
+  "matched": "4711 KING WILLIAM RD, RICHMOND, VA, 23225"
+ },
+ "5216 Caledonia Road": {
+  "lat": 37.526868104922,
+  "lon": -77.491256111593,
+  "matched": "5216 CALEDONIA RD, RICHMOND, VA, 23225"
+ },
+ "5300 Dorchester Road": {
+  "lat": 37.526600102028,
+  "lon": -77.494214466068,
+  "matched": "5300 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "5302 Caledonia Rd": {
+  "lat": 37.527487870847,
+  "lon": -77.4926095714,
+  "matched": "5302 CALEDONIA RD, RICHMOND, VA, 23225"
+ },
+ "5303 Dorchester Road": {
+  "lat": 37.527223291572,
+  "lon": -77.494064484808,
+  "matched": "5303 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "4536 New Kent Ave": {
+  "lat": 37.522921992519,
+  "lon": -77.481170410275,
+  "matched": "4536 NEW KENT AVE, RICHMOND, VA, 23225"
+ },
+ "5307 Dorchester Road": {
+  "lat": 37.527257611043,
+  "lon": -77.494071550579,
+  "matched": "5307 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "4317 New Kent Ave": {
+  "lat": 37.521618029284,
+  "lon": -77.477901284684,
+  "matched": "4317 NEW KENT AVE, RICHMOND, VA, 23225"
+ },
+ "5309 Dorchester Road": {
+  "lat": 37.527274770778,
+  "lon": -77.494075083464,
+  "matched": "5309 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "3201 Forest Hill Ave": {
+  "lat": 37.514844737665,
+  "lon": -77.466515862292,
+  "matched": "3201 FOREST HILL AVE, RICHMOND, VA, 23225"
+ },
+ "5314 Dorchester Road": {
+  "lat": 37.528051672668,
+  "lon": -77.49463915948,
+  "matched": "5314 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "319 W 28th St": {
+  "lat": 37.517152077388,
+  "lon": -77.461173804772,
+  "matched": "319 W 28TH ST, RICHMOND, VA, 23225"
+ },
+ "5314 Sylvan Road": {
+  "lat": 37.527122715641,
+  "lon": -77.495707055543,
+  "matched": "5314 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "4410 Forest Hill Ave": {
+  "lat": 37.519664406113,
+  "lon": -77.481652149514,
+  "matched": "4410 FOREST HILL AVE, RICHMOND, VA, 23225"
+ },
+ "5315 Sylvan Road": {
+  "lat": 37.527115798085,
+  "lon": -77.495514551851,
+  "matched": "5315 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "1507 Westover Hiills Blvd.": {
+  "lat": 37.522097518278,
+  "lon": -77.48786754966,
+  "matched": "1507 WESTOVER HILLS BLVD, RICHMOND, VA, 23225"
+ },
+ "5323 Sylvan Rd": {
+  "lat": 37.52723427573,
+  "lon": -77.495634200188,
+  "matched": "5323 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "1806 Westover Hills Boulevard": {
+  "lat": 37.524909898787,
+  "lon": -77.48725433667,
+  "matched": "1806 WESTOVER HILLS BLVD, RICHMOND, VA, 23225"
+ },
+ "1903 West 42nd Street": {
+  "lat": 37.522867080836,
+  "lon": -77.475048241738,
+  "matched": "1903 W 42ND ST, RICHMOND, VA, 23225"
+ },
+ "2432 Breckenridge Road": {
+  "lat": 37.532837581926,
+  "lon": -77.497657062196,
+  "matched": "2432 BRECKENRIDGE RD, RICHMOND, VA, 23225"
+ },
+ "4608 Devonshire Road": {
+  "lat": 37.521083722034,
+  "lon": -77.483739142363,
+  "matched": "4608 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "5410 Dorchester RD": {
+  "lat": 37.529203200171,
+  "lon": -77.495991098431,
+  "matched": "5410 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "5414 Dorchester Road": {
+  "lat": 37.529264788745,
+  "lon": -77.496031920071,
+  "matched": "5414 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "5502 Dorchester Rd": {
+  "lat": 37.530787413146,
+  "lon": -77.496249058793,
+  "matched": "5502 DORCHESTER RD, RICHMOND, VA, 23225"
+ },
+ "5027 Devonshire Road": {
+  "lat": 37.523062725639,
+  "lon": -77.489822283561,
+  "matched": "5027 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "4613 Sylvan Road": {
+  "lat": 37.522016343974,
+  "lon": -77.483304322833,
+  "matched": "4613 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "4615 Sylvan Road": {
+  "lat": 37.522024145647,
+  "lon": -77.483350266007,
+  "matched": "4615 SYLVAN RD, RICHMOND, VA, 23225"
+ },
+ "4709 Devonshire Road": {
+  "lat": 37.52157188578,
+  "lon": -77.485816748731,
+  "matched": "4709 DEVONSHIRE RD, RICHMOND, VA, 23225"
+ },
+ "4930 Forest Hill Ave": {
+  "lat": 37.52146454065,
+  "lon": -77.489375845592,
+  "matched": "4930 FOREST HILL AVE, RICHMOND, VA, 23225"
+ }
+}

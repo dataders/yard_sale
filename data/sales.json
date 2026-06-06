@@ -1,0 +1,894 @@
+{
+ "event": "Forest Hill & Westover Hills Yard Sales",
+ "date": "Saturday, June 6, 2026",
+ "time": "8 a.m. - 12 noon (times vary by sale)",
+ "generated_sources": [
+  "https://www.westover-hills.org/updates/2026-addresses",
+  "https://tinyurl.com/fh-2026-yardsale-map"
+ ],
+ "count": 84,
+ "sales": [
+  {
+   "street": "1011 W 42nd St",
+   "address": "1011 W 42nd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "housewares, children\u2019s items, clothing, books, art, misc.",
+   "lat": 37.515539676613,
+   "lon": -77.480571161323
+  },
+  {
+   "street": "1203 W 45th St",
+   "address": "1203 W 45th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Clothes, dog stuff, misc household items",
+   "lat": 37.518931542475,
+   "lon": -77.483673689209
+  },
+  {
+   "street": "1206 W 41st St",
+   "address": "1206 W 41st St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Furniture, housewares, antiques, pottery, dishes, books",
+   "lat": 37.516284276487,
+   "lon": -77.478703387043
+  },
+  {
+   "street": "1206 W 45th St",
+   "address": "1206 W 45th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.518986886131,
+   "lon": -77.483806150298
+  },
+  {
+   "street": "1302 W 42nd St",
+   "address": "1302 W 42nd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Vintage home decor, baby clothes and other baby items, adult clothes, kitchen items, small furniture",
+   "lat": 37.517621617535,
+   "lon": -77.479183272987
+  },
+  {
+   "street": "1507 Westover Hiills Blvd.",
+   "address": "1507 Westover Hiills Blvd., Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.522097518278,
+   "lon": -77.48786754966
+  },
+  {
+   "street": "1804 W 44th Street",
+   "address": "1804 W 44th Street, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.522773312356,
+   "lon": -77.477702834162
+  },
+  {
+   "street": "1805 W 42nd St",
+   "address": "1805 W 42nd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Clothes women, teen boy/girl, houseware, yard",
+   "lat": 37.521867938157,
+   "lon": -77.475814965384
+  },
+  {
+   "street": "1805 W 43rd St",
+   "address": "1805 W 43rd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Antique furniture and lamps, lanterns, antique smalls, tools, antique scale, glassware, antique clocks, and more",
+   "lat": 37.522390591053,
+   "lon": -77.476924285151
+  },
+  {
+   "street": "1806 Westover Hills Boulevard",
+   "address": "1806 Westover Hills Boulevard, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.524909898787,
+   "lon": -77.48725433667
+  },
+  {
+   "street": "1807 Woodbine Rd",
+   "address": "1807 Woodbine Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Albums,CD's, Golf Items, Tools, Arts and Crafts, Clothing, shoes, Household items, Multi-family sale !",
+   "lat": 37.52348670127,
+   "lon": -77.480829352991
+  },
+  {
+   "street": "1816 W 45th St",
+   "address": "1816 W 45th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.522775174903,
+   "lon": -77.479951081187
+  },
+  {
+   "street": "1903 West 42nd Street",
+   "address": "1903 West 42nd Street, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.522867080836,
+   "lon": -77.475048241738
+  },
+  {
+   "street": "208 W 34th St",
+   "address": "208 W 34th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Antique/Vintage, garden, fencing, fans, chairs, books, push mower, pop-up canopy, light fixtures, sewing machine, gas stove, 1959 BSA motorcycle, and more!",
+   "lat": 37.513898808055,
+   "lon": -77.469497732576
+  },
+  {
+   "street": "209 Dundee Ave",
+   "address": "209 Dundee Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Wooden dining table and chairs, large chair, in-table, dishes and art",
+   "lat": 37.513047009343,
+   "lon": -77.470803032187
+  },
+  {
+   "street": "2432 Breckenridge Road",
+   "address": "2432 Breckenridge Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.532837581926,
+   "lon": -77.497657062196
+  },
+  {
+   "street": "3000 Springhill Ave",
+   "address": "3000 Springhill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Misc yard tools, children\u2019s items, etc.",
+   "lat": 37.518737757567,
+   "lon": -77.465163392363
+  },
+  {
+   "street": "3108 Forest Hill Ave",
+   "address": "3108 Forest Hill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.514450956914,
+   "lon": -77.465082667258
+  },
+  {
+   "street": "319 W 28th St",
+   "address": "319 W 28th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Womens small bike, bike floor pump, snorkel fins & booties-womens small",
+   "lat": 37.517152077388,
+   "lon": -77.461173804772
+  },
+  {
+   "street": "3201 Forest Hill Ave",
+   "address": "3201 Forest Hill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.514844737665,
+   "lon": -77.466515862292
+  },
+  {
+   "street": "3311 Semmes Ave",
+   "address": "3311 Semmes Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.516540641232,
+   "lon": -77.468201900266
+  },
+  {
+   "street": "4012 Dunston Ave",
+   "address": "4012 Dunston Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Furniture, clothing, wedding decor, glassware, electronics, kitchenware, and more!",
+   "lat": 37.515297179818,
+   "lon": -77.477037407884
+  },
+  {
+   "street": "4026 Northrop St",
+   "address": "4026 Northrop St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.513406715078,
+   "lon": -77.476411957168
+  },
+  {
+   "street": "4030 Forest Hill Ave",
+   "address": "4030 Forest Hill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Brass bed,  shoes",
+   "lat": 37.51676200776,
+   "lon": -77.475228807515
+  },
+  {
+   "street": "4206 New Kent Ave",
+   "address": "4206 New Kent Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Tables dedicated to $1 and $5 items; professional art supplies (COPIC markers, Microns, pastels, etc.), Pokemon goods, manga, misc. nerd goods",
+   "lat": 37.520949147398,
+   "lon": -77.476755850076
+  },
+  {
+   "street": "4301 Stonewall Ave",
+   "address": "4301 Stonewall Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Toddler/children\u2019s toys, books, games, movies, etc. Also, house furnishings for a moving sale!",
+   "lat": 37.520692409808,
+   "lon": -77.478370775541
+  },
+  {
+   "street": "4302 Stonewall Ave",
+   "address": "4302 Stonewall Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Kids' toys, kids' bikes, kids' clothes, books, miscellaneous",
+   "lat": 37.520601214803,
+   "lon": -77.478461340749
+  },
+  {
+   "street": "4317 New Kent Ave",
+   "address": "4317 New Kent Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.521618029284,
+   "lon": -77.477901284684
+  },
+  {
+   "street": "4410 Forest Hill Ave",
+   "address": "4410 Forest Hill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "HomeGoods, vintage and modern, lighting, children\u2019s books, clothes from Everdeen, Madewell, vintage, designer, vintage and modern furniture, tools, especially woodworking tools, some photography equipment, and other art supplies.",
+   "lat": 37.519664406113,
+   "lon": -77.481652149514
+  },
+  {
+   "street": "4532 New Kent Ave",
+   "address": "4532 New Kent Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "7500 W portable generator w/electric start, hand tools, clothes, artworks, and more!",
+   "lat": 37.522908019893,
+   "lon": -77.481137384075
+  },
+  {
+   "street": "4536 New Kent Ave",
+   "address": "4536 New Kent Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.522921992519,
+   "lon": -77.481170410275
+  },
+  {
+   "street": "4608 Devonshire Road",
+   "address": "4608 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.521083722034,
+   "lon": -77.483739142363
+  },
+  {
+   "street": "4613 Sylvan Road",
+   "address": "4613 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.522016343974,
+   "lon": -77.483304322833
+  },
+  {
+   "street": "4615 Sylvan Road",
+   "address": "4615 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.522024145647,
+   "lon": -77.483350266007
+  },
+  {
+   "street": "4709 Devonshire Road",
+   "address": "4709 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52157188578,
+   "lon": -77.485816748731
+  },
+  {
+   "street": "4711 King William Rd",
+   "address": "4711 King William Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.523213883704,
+   "lon": -77.484919499851
+  },
+  {
+   "street": "4930 Forest Hill Ave",
+   "address": "4930 Forest Hill Ave, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52146454065,
+   "lon": -77.489375845592
+  },
+  {
+   "street": "5001 Evelyn Byrd Road",
+   "address": "5001 Evelyn Byrd Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.526697705059,
+   "lon": -77.486601276584
+  },
+  {
+   "street": "5001 King William Road",
+   "address": "5001 King William Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524502756389,
+   "lon": -77.488566371894
+  },
+  {
+   "street": "5004 King William Road",
+   "address": "5004 King William Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524429270802,
+   "lon": -77.488687623351
+  },
+  {
+   "street": "5007 King William Road",
+   "address": "5007 King William Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524535288693,
+   "lon": -77.488627541777
+  },
+  {
+   "street": "5009 Caledonia Road",
+   "address": "5009 Caledonia Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524946410245,
+   "lon": -77.487399919445
+  },
+  {
+   "street": "5010 New Kent Road",
+   "address": "5010 New Kent Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.525785831696,
+   "lon": -77.48717994857
+  },
+  {
+   "street": "5013 Sylvan Road",
+   "address": "5013 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.523768003942,
+   "lon": -77.489158113806
+  },
+  {
+   "street": "5018 Caledonia Road",
+   "address": "5018 Caledonia Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524948085689,
+   "lon": -77.487674483463
+  },
+  {
+   "street": "5022 Devonshire Road",
+   "address": "5022 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.522939574871,
+   "lon": -77.489850405458
+  },
+  {
+   "street": "5024 Devonshire Road",
+   "address": "5024 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.522953635135,
+   "lon": -77.48987671409
+  },
+  {
+   "street": "5027 Devonshire",
+   "address": "5027 Devonshire, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.523062725639,
+   "lon": -77.489822283561
+  },
+  {
+   "street": "5027 Devonshire Road",
+   "address": "5027 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.523062725639,
+   "lon": -77.489822283561
+  },
+  {
+   "street": "5032 Sylvan Road",
+   "address": "5032 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.523796585094,
+   "lon": -77.489471534998
+  },
+  {
+   "street": "5033 Devonshire Road",
+   "address": "5033 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52310490643,
+   "lon": -77.489901209458
+  },
+  {
+   "street": "5103 Forest Hill Avenue",
+   "address": "5103 Forest Hill Avenue, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52290578409,
+   "lon": -77.491577139957
+  },
+  {
+   "street": "5103 Sylvan Road",
+   "address": "5103 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.524385833502,
+   "lon": -77.490312869898
+  },
+  {
+   "street": "5104 Evelyn Byrd Road",
+   "address": "5104 Evelyn Byrd Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527584333765,
+   "lon": -77.48850089521
+  },
+  {
+   "street": "5105 Evelyn Byrd Road",
+   "address": "5105 Evelyn Byrd Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527700143096,
+   "lon": -77.488459809114
+  },
+  {
+   "street": "5106 New Kent Road",
+   "address": "5106 New Kent Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52673790342,
+   "lon": -77.488954511324
+  },
+  {
+   "street": "5106 Sylvan Road",
+   "address": "5106 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.524330772353,
+   "lon": -77.490466613749
+  },
+  {
+   "street": "5107 New Kent Road",
+   "address": "5107 New Kent Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52683277178,
+   "lon": -77.488873466237
+  },
+  {
+   "street": "5108 King William Rd",
+   "address": "5108 King William Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "Lots of Furniture, toys, games, books, art",
+   "lat": 37.525086996178,
+   "lon": -77.489900801407
+  },
+  {
+   "street": "5110 Devonshire Road",
+   "address": "5110 Devonshire Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.523626094828,
+   "lon": -77.491135695422
+  },
+  {
+   "street": "5111 Riverside Drive",
+   "address": "5111 Riverside Drive, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.529326137703,
+   "lon": -77.489100228716
+  },
+  {
+   "street": "5112 King William Rd",
+   "address": "5112 King William Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.525124047632,
+   "lon": -77.489973746443
+  },
+  {
+   "street": "518 W 29th St",
+   "address": "518 W 29th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Clothes, pottery, metaphysical, art, tarot",
+   "lat": 37.51853001292,
+   "lon": -77.463613404597
+  },
+  {
+   "street": "5201 King William Road",
+   "address": "5201 King William Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.526112098414,
+   "lon": -77.491555834483
+  },
+  {
+   "street": "5202 Caledonia Road",
+   "address": "5202 Caledonia Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.526760973753,
+   "lon": -77.49105375276
+  },
+  {
+   "street": "5214 Dorchester Road",
+   "address": "5214 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.525687622556,
+   "lon": -77.49462969575
+  },
+  {
+   "street": "5216 Caledonia Road",
+   "address": "5216 Caledonia Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.526868104922,
+   "lon": -77.491256111593
+  },
+  {
+   "street": "5300 Dorchester Road",
+   "address": "5300 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.526600102028,
+   "lon": -77.494214466068
+  },
+  {
+   "street": "5302 Caledonia Rd",
+   "address": "5302 Caledonia Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527487870847,
+   "lon": -77.4926095714
+  },
+  {
+   "street": "5303 Dorchester Road",
+   "address": "5303 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527223291572,
+   "lon": -77.494064484808
+  },
+  {
+   "street": "5307 Dorchester Road",
+   "address": "5307 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527257611043,
+   "lon": -77.494071550579
+  },
+  {
+   "street": "5309 Dorchester Road",
+   "address": "5309 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.527274770778,
+   "lon": -77.494075083464
+  },
+  {
+   "street": "5314 Dorchester Road",
+   "address": "5314 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.528051672668,
+   "lon": -77.49463915948
+  },
+  {
+   "street": "5314 Sylvan Road",
+   "address": "5314 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.527122715641,
+   "lon": -77.495707055543
+  },
+  {
+   "street": "5315 Sylvan Road",
+   "address": "5315 Sylvan Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "",
+   "lat": 37.527115798085,
+   "lon": -77.495514551851
+  },
+  {
+   "street": "5323 Sylvan Rd",
+   "address": "5323 Sylvan Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.52723427573,
+   "lon": -77.495634200188
+  },
+  {
+   "street": "5410 Dorchester RD",
+   "address": "5410 Dorchester RD, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.529203200171,
+   "lon": -77.495991098431
+  },
+  {
+   "street": "5414 Dorchester Road",
+   "address": "5414 Dorchester Road, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.529264788745,
+   "lon": -77.496031920071
+  },
+  {
+   "street": "5502 Dorchester Rd",
+   "address": "5502 Dorchester Rd, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill",
+    "Westover Hills"
+   ],
+   "items": "",
+   "lat": 37.530787413146,
+   "lon": -77.496249058793
+  },
+  {
+   "street": "618 W 33rd St",
+   "address": "618 W 33rd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Men's bike, mid century console tables, misc household items.",
+   "lat": 37.517633231124,
+   "lon": -77.468751401596
+  },
+  {
+   "street": "701 W 33rd St",
+   "address": "701 W 33rd St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Furniture , yard items, household stuff, decor",
+   "lat": 37.518422623646,
+   "lon": -77.469082605553
+  },
+  {
+   "street": "706 W 26th St",
+   "address": "706 W 26th St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Household items, air purifier, robot vacuum, tools, books",
+   "lat": 37.521606207184,
+   "lon": -77.461256843568
+  },
+  {
+   "street": "823 W 47th Street",
+   "address": "823 W 47th Street, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "Kitchen utensils, bedroom furniture, clothes, books, tools, bikes, kids equipment",
+   "lat": 37.515301408451,
+   "lon": -77.487334938724
+  },
+  {
+   "street": "901 W 31st St",
+   "address": "901 W 31st St, Richmond, VA 23225",
+   "sources": [
+    "Forest Hill"
+   ],
+   "items": "901 W 31st St, Richmond, VA 23225",
+   "lat": 37.521096788817,
+   "lon": -77.46788992622
+  }
+ ]
+}

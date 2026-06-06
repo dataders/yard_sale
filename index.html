@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forest Hill &amp; Westover Hills Yard Sales</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root { --bg:#f7f5f0; --ink:#2b2b2b; --fh:#7b2d8e; --wh:#1c6e8c; --both:#b85c00; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); }
+  #app { display:flex; flex-direction:column; height:100%; }
+  header { padding:10px 14px; background:#fff; border-bottom:1px solid #e2ddd3; }
+  header h1 { margin:0; font-size:1.05rem; }
+  header p { margin:2px 0 0; font-size:.8rem; color:#666; }
+  #main { flex:1; display:flex; min-height:0; }
+  #sidebar { width:340px; max-width:42%; display:flex; flex-direction:column; border-right:1px solid #e2ddd3; background:var(--bg); }
+  #controls { padding:8px 10px; display:flex; flex-direction:column; gap:6px; border-bottom:1px solid #e2ddd3; }
+  #search { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.9rem; }
+  .filters { display:flex; gap:6px; flex-wrap:wrap; }
+  .chip { font-size:.72rem; padding:4px 9px; border-radius:20px; border:1px solid #cfc8ba; background:#fff; cursor:pointer; user-select:none; }
+  .chip.active { color:#fff; border-color:transparent; }
+  .chip[data-f="all"].active { background:#555; }
+  .chip[data-f="Forest Hill"].active { background:var(--fh); }
+  .chip[data-f="Westover Hills"].active { background:var(--wh); }
+  #count { font-size:.74rem; color:#777; padding:0 2px; }
+  #list { overflow-y:auto; flex:1; }
+  .item { padding:9px 12px; border-bottom:1px solid #ebe6db; cursor:pointer; }
+  .item:hover { background:#fff; }
+  .item.sel { background:#fff; box-shadow: inset 3px 0 0 var(--both); }
+  .item .addr { font-weight:600; font-size:.9rem; }
+  .item .src { font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; color:#888; margin-top:2px; }
+  .item .items { font-size:.78rem; color:#555; margin-top:3px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  #map { flex:1; }
+  .dot { border-radius:50%; border:2px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.25); }
+  .leaflet-popup-content { font-size:.85rem; }
+  .leaflet-popup-content .pa { font-weight:600; }
+  .leaflet-popup-content a { color:var(--wh); }
+  @media (max-width:640px) {
+    #main { flex-direction:column; }
+    #sidebar { width:100%; max-width:none; height:45%; border-right:none; border-bottom:1px solid #e2ddd3; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Forest Hill &amp; Westover Hills Yard Sales</h1>
+    <p id="subtitle">Loading…</p>
+  </header>
+  <div id="main">
+    <aside id="sidebar">
+      <div id="controls">
+        <input id="search" type="search" placeholder="Search address or items…" autocomplete="off">
+        <div class="filters">
+          <span class="chip active" data-f="all">All</span>
+          <span class="chip" data-f="Forest Hill">Forest Hill</span>
+          <span class="chip" data-f="Westover Hills">Westover Hills</span>
+        </div>
+        <div id="count"></div>
+      </div>
+      <div id="list"></div>
+    </aside>
+    <div id="map"></div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+const COLORS = { "Forest Hill": "#7b2d8e", "Westover Hills": "#1c6e8c", both: "#b85c00" };
+
+function srcColor(sources) {
+  if (sources.length > 1) return COLORS.both;
+  return COLORS[sources[0]] || "#555";
+}
+function srcLabel(sources) {
+  return sources.length > 1 ? "Both neighborhoods" : sources[0];
+}
+
+let SALES = [];
+let filter = "all";
+let query = "";
+const markers = new Map();   // street -> leaflet marker
+let selected = null;
+
+const map = L.map("map", { scrollWheelZoom: true });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+function makeIcon(sources, big) {
+  const c = srcColor(sources);
+  const d = big ? 20 : 13;
+  return L.divIcon({
+    className: "",
+    html: `<div class="dot" style="width:${d}px;height:${d}px;background:${c}"></div>`,
+    iconSize: [d, d], iconAnchor: [d/2, d/2]
+  });
+}
+
+function mapsLink(addr) {
+  return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(addr);
+}
+
+function popupHtml(s) {
+  let h = `<div class="pa">${s.street}</div>`;
+  h += `<div style="font-size:.72rem;color:${srcColor(s.sources)};text-transform:uppercase">${srcLabel(s.sources)}</div>`;
+  if (s.items) h += `<div style="margin-top:5px">${s.items}</div>`;
+  h += `<div style="margin-top:6px"><a target="_blank" rel="noopener" href="${mapsLink(s.address)}">Directions ↗</a></div>`;
+  return h;
+}
+
+function visible(s) {
+  if (filter !== "all" && !s.sources.includes(filter)) return false;
+  if (query) {
+    const hay = (s.street + " " + (s.items || "")).toLowerCase();
+    if (!hay.includes(query)) return false;
+  }
+  return true;
+}
+
+function select(street, fromMap) {
+  selected = street;
+  document.querySelectorAll(".item").forEach(el =>
+    el.classList.toggle("sel", el.dataset.street === street));
+  const m = markers.get(street);
+  if (m) {
+    m.setIcon(makeIcon(m._sources, true));
+    markers.forEach((mm, st) => { if (st !== street) mm.setIcon(makeIcon(mm._sources, false)); });
+    if (!fromMap) map.setView(m.getLatLng(), Math.max(map.getZoom(), 16), { animate: true });
+    m.openPopup();
+    const el = document.querySelector(`.item[data-street="${CSS.escape(street)}"]`);
+    if (el && fromMap) el.scrollIntoView({ block: "nearest" });
+  }
+}
+
+function render() {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  let shown = 0;
+  for (const s of SALES) {
+    const m = markers.get(s.street);
+    const show = visible(s);
+    if (m) { if (show) m.addTo(map); else map.removeLayer(m); }
+    if (!show) continue;
+    shown++;
+    const div = document.createElement("div");
+    div.className = "item" + (s.street === selected ? " sel" : "");
+    div.dataset.street = s.street;
+    div.innerHTML =
+      `<div class="addr">${s.street}</div>` +
+      `<div class="src" style="color:${srcColor(s.sources)}">${srcLabel(s.sources)}</div>` +
+      (s.items ? `<div class="items">${s.items}</div>` : "");
+    div.onclick = () => select(s.street, false);
+    list.appendChild(div);
+  }
+  document.getElementById("count").textContent =
+    `${shown} of ${SALES.length} sales shown`;
+}
+
+fetch("data/sales.json").then(r => r.json()).then(data => {
+  SALES = data.sales.filter(s => typeof s.lat === "number");
+  SALES.sort((a, b) => a.street.localeCompare(b.street, undefined, { numeric: true }));
+  document.getElementById("subtitle").textContent =
+    `${data.date} · ${data.time} · ${SALES.length} sales`;
+
+  const pts = [];
+  for (const s of SALES) {
+    const m = L.marker([s.lat, s.lon], { icon: makeIcon(s.sources, false) });
+    m._sources = s.sources;
+    m.bindPopup(popupHtml(s));
+    m.on("click", () => select(s.street, true));
+    markers.set(s.street, m);
+    pts.push([s.lat, s.lon]);
+  }
+  map.fitBounds(pts, { padding: [30, 30] });
+  render();
+}).catch(e => {
+  document.getElementById("subtitle").textContent = "Failed to load sales data.";
+  console.error(e);
+});
+
+document.getElementById("search").addEventListener("input", e => {
+  query = e.target.value.trim().toLowerCase();
+  render();
+});
+document.querySelectorAll(".chip").forEach(chip => {
+  chip.onclick = () => {
+    filter = chip.dataset.f;
+    document.querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c === chip));
+    render();
+  };
+});
+</script>
+</body>
+</html>

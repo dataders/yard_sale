@@ -13,6 +13,7 @@
   header { padding:10px 14px; background:#fff; border-bottom:1px solid #e2ddd3; }
   header h1 { margin:0; font-size:1.05rem; }
   header p { margin:2px 0 0; font-size:.8rem; color:#666; }
+  #errbar { color:#b00020; font-weight:600; white-space:pre-wrap; word-break:break-word; }
   #main { flex:1; display:flex; min-height:0; }
   #sidebar { width:340px; max-width:42%; display:flex; flex-direction:column; border-right:1px solid #e2ddd3; background:var(--bg); }
   #controls { padding:8px 10px; display:flex; flex-direction:column; gap:6px; border-bottom:1px solid #e2ddd3; }
@@ -78,6 +79,7 @@
   <header>
     <h1>Forest Hill &amp; Westover Hills Yard Sales</h1>
     <p id="subtitle">Loading…</p>
+    <p id="errbar" hidden></p>
   </header>
   <div id="main">
     <aside id="sidebar">
@@ -119,6 +121,16 @@
 
 <script src="vendor/leaflet/leaflet.js"></script>
 <script>
+// --- on-screen diagnostics: surface any error where a phone user can read it ---
+function showError(msg) {
+  const bar = document.getElementById("errbar");
+  if (bar) { bar.textContent = "⚠ " + msg; bar.hidden = false; }
+}
+window.addEventListener("error", e =>
+  showError((e.message || "Script error") + (e.lineno ? "  (line " + e.lineno + ")" : "")));
+window.addEventListener("unhandledrejection", e =>
+  showError("Load failed: " + ((e.reason && (e.reason.message || e.reason)) || "unknown")));
+
 const COLORS = { "Forest Hill": "#7b2d8e", "Westover Hills": "#1c6e8c", both: "#b85c00" };
 const srcColor = s => s.length > 1 ? COLORS.both : (COLORS[s[0]] || "#555");
 const srcLabel = s => s.length > 1 ? "Both neighborhoods" : s[0];
@@ -133,16 +145,23 @@ let selected = null;             // highlighted (clicked) street
 let userLoc = null;              // {lat, lon}
 let meMarker = null, meCircle = null, routeLine = null;
 
+let map = null;
 if (typeof L === "undefined") {
-  document.getElementById("subtitle").textContent =
-    "Map library failed to load — check your connection and reload.";
+  showError("Map library didn't load. Reload the page (pull down to refresh).");
+} else {
+  try {
+    const el = document.getElementById("map");
+    if (el._leaflet_id) { el._leaflet_id = null; }   // guard against double-init
+    map = L.map(el, { scrollWheelZoom: true })
+      .setView([37.5225, -77.479], 14);              // Richmond 23225
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+  } catch (e) {
+    showError("Map setup failed: " + e.message);   // list still works below
+  }
 }
-const map = L.map("map", { scrollWheelZoom: true })
-  .setView([37.5225, -77.479], 14);   // Richmond 23225, so tiles show before data
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
 
 /* ---------- geometry helpers ---------- */
 function haversine(a, b) {
@@ -267,10 +286,10 @@ function renderRoute(start, ordered) {
   document.getElementById("rtitle").textContent = `Route · ${route.length} stop${route.length===1?"":"s"}`;
 
   // draw line through (optional start +) ordered stops
-  if (routeLine) { map.removeLayer(routeLine); routeLine = null; }
+  if (routeLine && map) { map.removeLayer(routeLine); routeLine = null; }
   const pts = [...(start ? [start] : []), ...ordered];
   if (pts.length >= 2) {
-    routeLine = L.polyline(pts.map(p => [p.lat, p.lon]),
+    if (map) routeLine = L.polyline(pts.map(p => [p.lat, p.lon]),
       { color: "#d62828", weight: 4, opacity: .75, dashArray: "1 8", lineCap: "round" }).addTo(map);
     const meters = pathLength(pts);
     document.getElementById("rstats").textContent =
@@ -310,7 +329,7 @@ function select(street, fromMap) {
     el.classList.toggle("sel", el.dataset.street === street));
   markers.forEach((_, st) => refreshIcon(st));
   const m = markers.get(street);
-  if (m) {
+  if (m && map) {
     if (!fromMap) map.setView(m.getLatLng(), Math.max(map.getZoom(), 16), { animate: true });
     m.setPopupContent(popupHtml(byStreet.get(street)));
     m.openPopup();
@@ -326,7 +345,7 @@ function render() {
   let shown = 0;
   for (const s of SALES) {
     const m = markers.get(s.street), show = visible(s);
-    if (m) { if (show) m.addTo(map); else map.removeLayer(m); }
+    if (m && map) { if (show) m.addTo(map); else map.removeLayer(m); }
     if (!show) continue;
     shown++;
     const div = document.createElement("div");
@@ -357,14 +376,16 @@ function locateMe() {
     btn.textContent = "◎"; btn.classList.add("on");
     userLoc = { lat: pos.coords.latitude, lon: pos.coords.longitude };
     const acc = pos.coords.accuracy || 30;
-    if (meMarker) map.removeLayer(meMarker);
-    if (meCircle) map.removeLayer(meCircle);
-    meMarker = L.marker([userLoc.lat, userLoc.lon], {
-      icon: L.divIcon({ className: "", html: `<div class="mepin" style="width:16px;height:16px"></div>`,
-        iconSize: [16,16], iconAnchor: [8,8] }), zIndexOffset: 1000
-    }).addTo(map).bindPopup("You are here");
-    meCircle = L.circle([userLoc.lat, userLoc.lon], { radius: acc, color: "#1a73e8", weight: 1, fillOpacity: .1 }).addTo(map);
-    map.setView([userLoc.lat, userLoc.lon], Math.max(map.getZoom(), 15));
+    if (map) {
+      if (meMarker) map.removeLayer(meMarker);
+      if (meCircle) map.removeLayer(meCircle);
+      meMarker = L.marker([userLoc.lat, userLoc.lon], {
+        icon: L.divIcon({ className: "", html: `<div class="mepin" style="width:16px;height:16px"></div>`,
+          iconSize: [16,16], iconAnchor: [8,8] }), zIndexOffset: 1000
+      }).addTo(map).bindPopup("You are here");
+      meCircle = L.circle([userLoc.lat, userLoc.lon], { radius: acc, color: "#1a73e8", weight: 1, fillOpacity: .1 }).addTo(map);
+      map.setView([userLoc.lat, userLoc.lon], Math.max(map.getZoom(), 15));
+    }
     if (route.length) reorderRoute();    // fold location into an existing route
   }, err => {
     btn.textContent = "◎";
@@ -373,7 +394,9 @@ function locateMe() {
 }
 
 /* ---------- boot ---------- */
-fetch("data/sales.json").then(r => r.json()).then(data => {
+fetch("data/sales.json", { cache: "no-cache" })
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(data => {
   SALES = data.sales.filter(s => typeof s.lat === "number");
   SALES.sort((a, b) => a.street.localeCompare(b.street, undefined, { numeric: true }));
   SALES.forEach(s => byStreet.set(s.street, s));
@@ -381,19 +404,21 @@ fetch("data/sales.json").then(r => r.json()).then(data => {
     `${data.date} · ${data.time} · ${SALES.length} sales`;
 
   const pts = [];
-  for (const s of SALES) {
-    const m = L.marker([s.lat, s.lon], { icon: makeIcon(s, false) });
-    m.bindPopup(popupHtml(s));
-    m.on("click", () => select(s.street, true));
-    markers.set(s.street, m);
-    pts.push([s.lat, s.lon]);
+  if (map) {
+    for (const s of SALES) {
+      const m = L.marker([s.lat, s.lon], { icon: makeIcon(s, false) });
+      m.bindPopup(popupHtml(s));
+      m.on("click", () => select(s.street, true));
+      markers.set(s.street, m);
+      pts.push([s.lat, s.lon]);
+    }
+    if (pts.length) map.fitBounds(pts, { padding: [30, 30] });
   }
-  if (pts.length) map.fitBounds(pts, { padding: [30, 30] });
-  render();
+  render();                                  // list renders with or without a map
 }).catch(e => {
   document.getElementById("subtitle").textContent =
     "Couldn't load sales data — pull to refresh or try again shortly.";
-  console.error(e);
+  showError("Data load failed: " + (e && e.message || e));
 });
 
 document.getElementById("search").addEventListener("input", e => {

@@ -17,7 +17,8 @@ into `data/sales.json`.
 - Leaflet + OpenStreetMap map with a pin per sale
 - Color-coded by source (Forest Hill, Westover Hills, or both)
 - Searchable, scrollable sidebar list synced with the map
-- Filter by neighborhood
+- Filter by neighborhood, or by **category** (furniture, tools, kids, books,
+  etc.) — categories are derived from each sale's item description at build time
 - One-tap "Directions" link to Google Maps for each address
 - **Route planner** — check off any number of sales and the app orders them
   into an efficient crawl (nearest-neighbor + 2-opt, computed in the browser),

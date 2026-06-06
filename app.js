@@ -18,6 +18,7 @@ const srcLabel = s => s.length > 1 ? "Both neighborhoods" : s[0];
 let SALES = [];
 let byStreet = new Map();        // street -> sale record
 let filter = "all";
+let category = "all";
 let query = "";
 const markers = new Map();       // street -> leaflet marker
 const route = [];                // ordered array of streets (selected stops)
@@ -124,6 +125,8 @@ function popupHtml(s) {
   let h = `<div class="pa">${s.street}</div>`;
   h += `<div style="font-size:.72rem;color:${srcColor(s.sources)};text-transform:uppercase">${srcLabel(s.sources)}</div>`;
   if (s.items) h += `<div style="margin-top:5px">${s.items}</div>`;
+  if (s.categories && s.categories.length)
+    h += `<div class="cats">` + s.categories.map(c => `<span class="cat">${c}</span>`).join("") + `</div>`;
   h += `<div style="margin-top:6px"><a target="_blank" rel="noopener" href="${mapsLink(s.address)}">Directions ↗</a></div>`;
   h += `<button class="addbtn ${inRoute ? "added" : ""}" onclick="toggleRoute('${s.street.replace(/'/g, "\\'")}')">`
      + `${inRoute ? "✓ In route" : "+ Add to route"}</button>`;
@@ -197,6 +200,7 @@ function renderRoute(start, ordered) {
 /* ---------- list + selection ---------- */
 function visible(s) {
   if (filter !== "all" && !s.sources.includes(filter)) return false;
+  if (category !== "all" && !(s.categories || []).includes(category)) return false;
   if (query) {
     const hay = (s.street + " " + (s.items || "")).toLowerCase();
     if (!hay.includes(query)) return false;
@@ -293,7 +297,23 @@ function boot(data) {
     }
     if (pts.length) map.fitBounds(pts, { padding: [30, 30] });
   }
+  populateCategories();
   render();                                  // list renders with or without a map
+}
+
+// Build the category dropdown from the data, with a count per category.
+function populateCategories() {
+  const counts = new Map();
+  for (const s of SALES)
+    for (const c of (s.categories || [])) counts.set(c, (counts.get(c) || 0) + 1);
+  const sel = document.getElementById("catFilter");
+  if (!sel) return;
+  [...counts.keys()].sort().forEach(cat => {
+    const o = document.createElement("option");
+    o.value = cat;
+    o.textContent = `${cat} (${counts.get(cat)})`;
+    sel.appendChild(o);
+  });
 }
 boot(window.SALES_DATA);
 
@@ -306,6 +326,9 @@ document.querySelectorAll(".chip").forEach(chip => {
     document.querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c === chip));
     render();
   };
+});
+document.getElementById("catFilter").addEventListener("change", e => {
+  category = e.target.value; render();
 });
 document.getElementById("locate").onclick = locateMe;
 document.getElementById("clearRoute").onclick = () => {

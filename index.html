@@ -18,6 +18,7 @@
   #sidebar { width:340px; max-width:42%; display:flex; flex-direction:column; border-right:1px solid #e2ddd3; background:var(--bg); }
   #controls { padding:8px 10px; display:flex; flex-direction:column; gap:6px; border-bottom:1px solid #e2ddd3; }
   #search { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.9rem; }
+  #catFilter { padding:7px 9px; border:1px solid #cfc8ba; border-radius:6px; font-size:.85rem; background:#fff; color:var(--ink); }
   .filters { display:flex; gap:6px; flex-wrap:wrap; }
   .chip { font-size:.72rem; padding:4px 9px; border-radius:20px; border:1px solid #cfc8ba; background:#fff; cursor:pointer; user-select:none; }
   .chip.active { color:#fff; border-color:transparent; }
@@ -65,6 +66,8 @@
   .mepin { border-radius:50%; background:#1a73e8; border:3px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.3); }
   .leaflet-popup-content { font-size:.85rem; }
   .leaflet-popup-content .pa { font-weight:600; }
+  .cats { margin-top:5px; display:flex; flex-wrap:wrap; gap:4px; }
+  .cat { font-size:.66rem; background:#efe9dd; color:#6b5d42; border-radius:10px; padding:2px 7px; }
   .leaflet-popup-content a { color:var(--wh); }
   .leaflet-popup-content button.addbtn { margin-top:6px; font-size:.78rem; padding:4px 9px; border-radius:6px; border:1px solid var(--route); background:#fff; color:var(--route); cursor:pointer; }
   .leaflet-popup-content button.addbtn.added { background:var(--route); color:#fff; }
@@ -91,6 +94,9 @@
           <span class="chip" data-f="Forest Hill">Forest Hill</span>
           <span class="chip" data-f="Westover Hills">Westover Hills</span>
         </div>
+        <select id="catFilter" aria-label="Filter by category">
+          <option value="all">All categories</option>
+        </select>
         <div id="count"></div>
       </div>
 
